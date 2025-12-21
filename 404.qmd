@@ -1,0 +1,8 @@
+---
+title: "This page doesn't exist"
+---
+
+Let's get you back!
+
+👉 Go to [homepage](/index.qmd).
+

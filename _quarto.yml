@@ -1,0 +1,29 @@
+# Used to test out the theme
+project:
+  type: dp-next-theme
+
+website:
+  title: "DP-Next Quarto theme"
+  site-url: "https://dp-next.github.io/dp-next-theme/"
+  repo-url: "https://github.com/dp-next/dp-next-theme"
+  navbar:
+    left:
+      - text: "Welcome"
+        href: index.qmd
+      - text: "Menu"
+        menu:
+          - href: index.qmd
+            text: "Home"
+  sidebar:
+    contents:
+      - index.qmd
+
+format: dp-next-theme-html
+
+editor:
+  markdown:
+    wrap: 72
+    canonical: true
+
+execute:
+  echo: false

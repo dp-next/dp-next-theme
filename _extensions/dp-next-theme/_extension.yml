@@ -1,0 +1,44 @@
+title: dp-next-theme
+author: Luke W. Johnston
+version: 0.1.0
+quarto-required: ">=1.7.0"
+contributes:
+  formats:
+    common:
+      shortcodes:
+        - quarto-ext/fontawesome
+    html:
+      from: markdown+emoji
+      toc: true
+      toc-location: right
+      toc-depth: 3
+
+  project:
+    project:
+      type: website
+      execute-dir: project
+
+    website:
+      page-navigation: true
+      # TODO: add favicon at this location
+      # favicon: favicon/favicon.ico
+      repo-branch: main
+      repo-actions: [edit, issue, source]
+      search:
+        location: navbar
+        type: textbox
+      navbar:
+        pinned: true
+        background: light
+        # TODO: Uncomment after adding logo
+        # logo: logos/logo.svg
+        # logo-alt: "DP-Next Project logo: Main page"
+      page-footer:
+        border: true
+        center:
+          # TODO: Add other items, like Conduct, contributing, funding?
+          - text: "License: CC-BY 4.0"
+
+    csl: vancouver.csl
+    format: dp-next-theme-html
+    brand: _brand.yml
