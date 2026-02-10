@@ -9,6 +9,8 @@ And an emoji :grin:
 
 [A button](nonexisting-link){.btn .btn-primary}
 [Another button](nonexisting-link){.btn .btn-secondary}
+
+A reference to [another header](index.qmd#another) in the same
 document.
 
 Random text: The shoes had been there for as long as anyone could
