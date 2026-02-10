@@ -12,11 +12,11 @@ meta:
 
 # TODO: Decide on colour palette, see Seedcase Project theme for inspiration
 # color:
-  # palette:
-  #   #colour-name: HTML colour code
-  # primary: colour-name
-  # tertiary: colour-name
-  # light: light-grey # maybe?
+#   palette:
+#     colour-name: HTML colour code
+#   primary: colour-name
+#   tertiary: colour-name
+#   light: light-grey # maybe?
 
 # TODO: Decide on fonts from https://fonts.bunny.net
 typography:
@@ -48,9 +48,8 @@ defaults:
       }
 
       .navbar {
-          border-bottom: rgba($toc-active-border, 0.3) 1px solid;
+        border-bottom: var(--quarto-scss-export-gray-300) 1px solid;
       }
-
       svg {
           display: block;
           max-width: 100%;

@@ -29,7 +29,7 @@ contributes:
         type: textbox
       navbar:
         pinned: true
-        background: light
+        background: white
         # TODO: Uncomment after adding logo
         # logo: logos/logo.svg
         # logo-alt: "DP-Next Project logo: Main page"
