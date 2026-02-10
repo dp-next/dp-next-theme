@@ -3,7 +3,7 @@ project:
   type: dp-next-theme
 
 website:
-  title: "DP-Next Quarto theme"
+  title: "DP-Next theme"
   site-url: "https://dp-next.github.io/dp-next-theme/"
   repo-url: "https://github.com/dp-next/dp-next-theme"
   navbar:
