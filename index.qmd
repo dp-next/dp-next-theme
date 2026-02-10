@@ -49,6 +49,13 @@ caption](/_extensions/dp-next-theme/logos/sdca.png){width="200"}
 
 Here's some `inline code` in a sentence.
 
+A code block:
+
+``` python
+def hello_world():
+    print("Hello, world!")
+```
+
 ## Simple mermaid diagram
 
 ::: column-page
