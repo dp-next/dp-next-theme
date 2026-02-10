@@ -44,12 +44,8 @@ Some text.
 :::
 
 ## Another
-
-More text.
-
-<!-- TODO: Uncomment after adding logo -->
-<!-- ![This is a
-caption](_extensions/dp-next-theme/logos/logo.svg){width="200"} -->
+![This is a
+caption](/_extensions/dp-next-theme/logos/sdca.png){width="200"}
 
 Here's some `inline code` in a sentence.
 
