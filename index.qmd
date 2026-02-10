@@ -7,7 +7,8 @@ title: "Welcome"
 This is the test landing page! With a [link](https://duckduckgo.com/)!
 And an emoji :grin:
 
-And [longer reference to another header](index.qmd#another) in the same
+[A button](nonexisting-link){.btn .btn-primary}
+[Another button](nonexisting-link){.btn .btn-secondary}
 document.
 
 Random text: The shoes had been there for as long as anyone could
