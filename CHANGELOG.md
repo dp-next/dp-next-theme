@@ -15,6 +15,12 @@ that any individual release will not have many changes within it. Below
 is a list of the releases we've made so far, along with what was changed
 within each release.
 
+## 0.1.2 (2026-02-10)
+
+### Refactor
+
+- :truck: rename logos, e.g., `au-logo.png` to `au.png` (#18)
+
 ## 0.1.1 (2026-02-10)
 
 ### Refactor
