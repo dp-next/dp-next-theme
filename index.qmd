@@ -7,7 +7,10 @@ title: "Welcome"
 This is the test landing page! With a [link](https://duckduckgo.com/)!
 And an emoji :grin:
 
-And [longer reference to another header](index.qmd#another) in the same
+[A button](nonexisting-link){.btn .btn-primary}
+[Another button](nonexisting-link){.btn .btn-secondary}
+
+A reference to [another header](index.qmd#another) in the same
 document.
 
 Random text: The shoes had been there for as long as anyone could
@@ -41,14 +44,17 @@ Some text.
 :::
 
 ## Another
-
-More text.
-
-<!-- TODO: Uncomment after adding logo -->
-<!-- ![This is a
-caption](_extensions/dp-next-theme/logos/logo.svg){width="200"} -->
+![This is a
+caption](/_extensions/dp-next-theme/logos/sdca.png){width="200"}
 
 Here's some `inline code` in a sentence.
+
+A code block:
+
+``` python
+def hello_world():
+    print("Hello, world!")
+```
 
 ## Simple mermaid diagram
 
