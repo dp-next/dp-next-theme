@@ -2,11 +2,11 @@
 title: "Welcome"
 ---
 
-Below is a test page to check that the theme is working as expected. It also
-serves as a short demo of the theme's features and styling. You can edit this
-page to test changes to the theme, but it is not intended as a long-term landing
-page for the theme website, so feel free to change it as needed. For guidelines
-on contributing to the theme, see the
+Below is a test page to check that the theme is working as expected. It
+also serves as a short demo of the theme's features and styling. You can
+edit this page to test changes to the theme, but it is not intended as a
+long-term landing page for the theme website, so feel free to change it
+as needed. For guidelines on contributing to the theme, see the
 [contributing guide](guide/contributing.qmd).
 
 ## Introduction
@@ -14,11 +14,10 @@ on contributing to the theme, see the
 This is the test landing page! With a [link](https://duckduckgo.com/)!
 And an emoji :grin:
 
-[A primary button](nonexisting-link){.btn .btn-primary}
-[A secondary button](nonexisting-link){.btn .btn-secondary}
+[A primary button](nonexisting-link){.btn .btn-primary} [A secondary
+button](nonexisting-link){.btn .btn-secondary}
 
-A reference to [another header](index.qmd#another) in the same
-document.
+A reference to [another header](index.qmd#another) in the same document.
 
 Random text: The shoes had been there for as long as anyone could
 remember. In fact, it was difficult for anyone to come up with a date
@@ -38,9 +37,9 @@ Here's a table:
 
 A list:
 
-1.  first
-2.  second
-3.  third
+1. first
+2. second
+3. third
 
 A callout block:
 
@@ -51,6 +50,7 @@ Some text.
 :::
 
 ## Another
+
 ![This is a
 caption](/_extensions/dp-next-theme/logos/sdca.png){width="200"}
 
