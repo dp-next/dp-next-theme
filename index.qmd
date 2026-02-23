@@ -14,8 +14,8 @@ on contributing to the theme, see the
 This is the test landing page! With a [link](https://duckduckgo.com/)!
 And an emoji :grin:
 
-[A button](nonexisting-link){.btn .btn-primary}
-[Another button](nonexisting-link){.btn .btn-secondary}
+[A primary button](nonexisting-link){.btn .btn-primary}
+[A secondary button](nonexisting-link){.btn .btn-secondary}
 
 A reference to [another header](index.qmd#another) in the same
 document.
