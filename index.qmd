@@ -2,6 +2,13 @@
 title: "Welcome"
 ---
 
+Below is a test page to check that the theme is working as expected. It also
+serves as a short demo of the theme's features and styling. You can edit this
+page to test changes to the theme, but it is not intended as a long-term landing
+page for the theme website, so feel free to change it as needed. For guidelines
+on contributing to the theme, see the
+[contributing guide](guide/contributing.qmd).
+
 ## Introduction
 
 This is the test landing page! With a [link](https://duckduckgo.com/)!
