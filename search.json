@@ -87,15 +87,5 @@
     "crumbs": [
       "Welcome"
     ]
-  },
-  {
-    "objectID": "index.html#card-example",
-    "href": "index.html#card-example",
-    "title": "Welcome",
-    "section": "Card example",
-    "text": "Card example\n\n\n\n\nA clickable card\nThis one gets us back to the “Introduction” section.\n\n\n\n\n\n\n\nAnother clickable card\nThis one gets us to the “Another” section.\n\n\n\n\n\n\n\nA third one\nThis one gets us to the contributing guide.",
-    "crumbs": [
-      "Welcome"
-    ]
   }
 ]
