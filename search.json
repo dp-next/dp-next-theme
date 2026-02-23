@@ -53,7 +53,7 @@
     "href": "index.html",
     "title": "Welcome",
     "section": "",
-    "text": "Below is a test page to check that the theme is working as expected. It also serves as a short demo of the theme’s features and styling. You can edit this page to test changes to the theme, but it is not intended as a long-term landing page for the theme website, so feel free to change it as needed. For guidelines on contributing to the theme, see the contributing guide.",
+    "text": "This is the test landing page! With a link! And an emoji 😁\nA button Another button\nA reference to another header in the same document.\nRandom text: The shoes had been there for as long as anyone could remember. In fact, it was difficult for anyone to come up with a date they had first appeared. It had seemed they’d always been there and yet they seemed so out of place. Why nobody had removed them was a question that had been asked time and again, but while they all thought it, nobody had ever found the energy to actually do it. So, the shoes remained on the steps, out of place in one sense, but perfectly normal in another.\nHere’s a table:\n\n\n\nName\nAge\n\n\n\n\nJohn\n23\n\n\nJane\n24\n\n\n\nA list:\n\nfirst\nsecond\nthird\n\nA callout block:\n\n\n\n\n\n\nTipHeader within callout block\n\n\n\nSome text.",
     "crumbs": [
       "Welcome"
     ]
@@ -62,8 +62,8 @@
     "objectID": "index.html#introduction",
     "href": "index.html#introduction",
     "title": "Welcome",
-    "section": "Introduction",
-    "text": "Introduction\nThis is the test landing page! With a link! And an emoji 😁\nA primary button A secondary button\nA reference to another header in the same document.\nRandom text: The shoes had been there for as long as anyone could remember. In fact, it was difficult for anyone to come up with a date they had first appeared. It had seemed they’d always been there and yet they seemed so out of place. Why nobody had removed them was a question that had been asked time and again, but while they all thought it, nobody had ever found the energy to actually do it. So, the shoes remained on the steps, out of place in one sense, but perfectly normal in another.\nHere’s a table:\n\n\n\nName\nAge\n\n\n\n\nJohn\n23\n\n\nJane\n24\n\n\n\nA list:\n\nfirst\nsecond\nthird\n\nA callout block:\n\n\n\n\n\n\nTipHeader within callout block\n\n\n\nSome text.",
+    "section": "",
+    "text": "This is the test landing page! With a link! And an emoji 😁\nA button Another button\nA reference to another header in the same document.\nRandom text: The shoes had been there for as long as anyone could remember. In fact, it was difficult for anyone to come up with a date they had first appeared. It had seemed they’d always been there and yet they seemed so out of place. Why nobody had removed them was a question that had been asked time and again, but while they all thought it, nobody had ever found the energy to actually do it. So, the shoes remained on the steps, out of place in one sense, but perfectly normal in another.\nHere’s a table:\n\n\n\nName\nAge\n\n\n\n\nJohn\n23\n\n\nJane\n24\n\n\n\nA list:\n\nfirst\nsecond\nthird\n\nA callout block:\n\n\n\n\n\n\nTipHeader within callout block\n\n\n\nSome text.",
     "crumbs": [
       "Welcome"
     ]
@@ -83,7 +83,7 @@
     "href": "index.html#simple-mermaid-diagram",
     "title": "Welcome",
     "section": "Simple mermaid diagram",
-    "text": "Simple mermaid diagram\n\n\n\n\n\nflowchart TB\n    user([\"User&lt;br&gt;[person]\"])\n    subgraph python\n        package[\"Functions&lt;br&gt;[Python]\"]\n    end\n    output[(\"Filesystem\")]\n\n    user --&gt; python:::system\n    sprout --&gt; output:::external\n\n    classDef system fill:none\n    classDef external fill:lightgrey\n\n\n Simple mermaid diagram",
+    "text": "Simple mermaid diagram\n\n\n\n\n\n\nflowchart TB\n    user([\"User&lt;br&gt;[person]\"])\n    subgraph python\n        package[\"Functions&lt;br&gt;[Python]\"]\n    end\n    output[(\"Filesystem\")]\n\n    user --&gt; python:::system\n    sprout --&gt; output:::external\n\n    classDef system fill:none\n    classDef external fill:lightgrey\n\n\n Simple mermaid diagram",
     "crumbs": [
       "Welcome"
     ]
