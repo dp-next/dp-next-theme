@@ -15,13 +15,24 @@ on:
 permissions: read-all
 
 jobs:
-  add-to-project:
+  add-to-website-project:
     uses: seedcase-project/.github/.github/workflows/reusable-add-to-project.yml@main
     permissions:
       pull-requests: write
     with:
       board-number: 8
       app-id: ${{ vars.ADD_TO_BOARD_APP_ID }}
+    secrets:
+      add-to-board-token: ${{ secrets.ADD_TO_BOARD }}
+      gh-token: ${{ secrets.GITHUB_TOKEN }}
+
+  add-to-ros-project:
+    uses: seedcase-project/.github/.github/workflows/reusable-add-to-project.yml@main
+    permissions:
+      pull-requests: write
+    with:
+      app-id: ${{ vars.ADD_TO_BOARD_APP_ID }}
+      board-number: 9
     secrets:
       add-to-board-token: ${{ secrets.ADD_TO_BOARD }}
       gh-token: ${{ secrets.GITHUB_TOKEN }}
