@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>changelog – DP-Next theme</title>
+<title>Contributing – DP-Next theme</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,30 +20,65 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-0d1e469a869c971cd78fbb3410af720a.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-c60d0c88b8f94ab884ab7eddfde2937b.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-0d1e469a869c971cd78fbb3410af720a.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-3206fdb9ac33d4ba542f4097be1d5139.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-3206fdb9ac33d4ba542f4097be1d5139.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-3206fdb9ac33d4ba542f4097be1d5139.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-0d1e469a869c971cd78fbb3410af720a.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-c60d0c88b8f94ab884ab7eddfde2937b.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-0d1e469a869c971cd78fbb3410af720a.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3206fdb9ac33d4ba542f4097be1d5139.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-3206fdb9ac33d4ba542f4097be1d5139.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-3206fdb9ac33d4ba542f4097be1d5139.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -81,7 +116,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">DP-Next theme</span>
     </a>
   </div>
@@ -92,7 +127,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link active" href="../index.html" aria-current="page"> 
 <span class="menu-text">Welcome</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -101,7 +136,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-guide">    
         <li>
-    <a class="dropdown-item" href="./guide/contributing.html">
+    <a class="dropdown-item" href="../guide/contributing.html">
  <span class="dropdown-text">Contributing</span></a>
   </li>  
     </ul>
@@ -117,7 +152,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Contributing</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -131,7 +166,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Welcome</span></a>
   </div>
 </li>
@@ -145,49 +180,86 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#changelog" id="toc-changelog" class="nav-link active" data-scroll-target="#changelog">Changelog</a>
+  <li><a href="#sec-theme-structure" id="toc-sec-theme-structure" class="nav-link active" data-scroll-target="#sec-theme-structure">Theme structure</a>
   <ul class="collapse">
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section">0.1.2 (2026-02-10)</a>
-  <ul class="collapse">
-  <li><a href="#refactor" id="toc-refactor" class="nav-link" data-scroll-target="#refactor">Refactor</a></li>
+  <li><a href="#brand.yml" id="toc-brand.yml" class="nav-link" data-scroll-target="#brand.yml"><code>_brand.yml</code></a></li>
+  <li><a href="#extension.yml" id="toc-extension.yml" class="nav-link" data-scroll-target="#extension.yml"><code>_extension.yml</code></a></li>
+  <li><a href="#adding-logos" id="toc-adding-logos" class="nav-link" data-scroll-target="#adding-logos">Adding logos</a></li>
   </ul></li>
-  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1">0.1.1 (2026-02-10)</a>
+  <li><a href="#contributing-changes" id="toc-contributing-changes" class="nav-link" data-scroll-target="#contributing-changes">Contributing changes</a>
   <ul class="collapse">
-  <li><a href="#refactor-1" id="toc-refactor-1" class="nav-link" data-scroll-target="#refactor-1">Refactor</a></li>
-  </ul></li>
+  <li><a href="#development-setup" id="toc-development-setup" class="nav-link" data-scroll-target="#development-setup">Development setup</a></li>
   </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/dp-next/dp-next-theme/edit/main/CHANGELOG.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/dp-next/dp-next-theme/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/dp-next/dp-next-theme/blob/main/CHANGELOG.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/dp-next/dp-next-theme/edit/main/guide/contributing.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/dp-next/dp-next-theme/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/dp-next/dp-next-theme/blob/main/guide/contributing.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Contributing</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
-<section id="changelog" class="level1">
-<h1>Changelog</h1>
-<p>Since we follow <a href="https://decisions.seedcase-project.org/why-conventional-commits">Conventional Commits</a>, we’re able to automatically create formal “releases” of the website based on our commit messages. Releases in the context of websites are simply snapshots in time of the website content. We use <a href="https://decisions.seedcase-project.org/why-semantic-release-with-commitizen">Commitizen</a> to automatically create these releases using <a href="https://semverdoc.org">SemVer</a> as the version numbering scheme.</p>
-<p>Because releases are created based on commit messages, a new release is created quite often—sometimes several times in a day. This also means that any individual release will not have many changes within it. Below is a list of the releases we’ve made so far, along with what was changed within each release.</p>
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section">0.1.2 (2026-02-10)</h2>
-<section id="refactor" class="level3">
-<h3 class="anchored" data-anchor-id="refactor">Refactor</h3>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>This theme is a <a href="https://quarto.org/docs/extensions/brand.html">Quarto brand extension</a> that provides a set of defaults and customisations on top of the base <a href="https://getbootstrap.com/">Bootstrap</a> theme. It is used across DP-Next websites, so when making changes, be careful to avoid breaking things downstream.</p>
+<p>Before adding custom CSS or JavaScript, check whether your change can be achieved through the theme files or existing <a href="https://quarto.org/docs/guide/">Quarto</a> or <a href="https://getbootstrap.com/">Bootstrap</a> options—custom code can introduce accessibility issues and is harder to maintain.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Before you start
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>We recommend opening an <a href="https://github.com/dp-next/dp-next-theme/issues/new">issue</a> to discuss proposed changes before working on them, especially for larger or more complex additions.</p>
+</div>
+</div>
+<section id="sec-theme-structure" class="level2">
+<h2 class="anchored" data-anchor-id="sec-theme-structure">Theme structure</h2>
+<p>The theme lives entirely inside <code>_extensions/dp-next-theme/</code>. The two most important files are <code>_brand.yml</code> and <code>_extension.yml</code>.</p>
+<section id="brand.yml" class="level3">
+<h3 class="anchored" data-anchor-id="brand.yml"><code>_brand.yml</code></h3>
+<p>Controls the visual identity of the theme: fonts, colours, and custom CSS rules. Edit this file to change the theme’s appearance. We use fonts from <a href="https://fonts.bunny.net/">Bunny</a>, a privacy-friendly alternative to Google Fonts. See Quarto’s <a href="https://quarto.org/docs/authoring/brand.html#brand-elements">Brand Elements</a> page for available options.</p>
+</section>
+<section id="extension.yml" class="level3">
+<h3 class="anchored" data-anchor-id="extension.yml"><code>_extension.yml</code></h3>
+<p>Defines the theme metadata and site-wide defaults. The <code>contributes</code> section is where you can set defaults for all sites using the theme like the navbar logo, favicon, or footer text.</p>
+</section>
+<section id="adding-logos" class="level3">
+<h3 class="anchored" data-anchor-id="adding-logos">Adding logos</h3>
+<p>Logos live in <code>_extensions/dp-next-theme/logos/</code>. Add new logos there, then reference them in <code>_extension.yml</code> (for navbar or favicon) or directly in <code>.qmd</code> files in repositories using the theme.</p>
+</section>
+</section>
+<section id="contributing-changes" class="level2">
+<h2 class="anchored" data-anchor-id="contributing-changes">Contributing changes</h2>
+<p>When contributing, make a <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request">pull request</a> with your changes. For an introduction to the pull request and commit conventions we follow, see these chapters in the <a href="https://guidebook.seedcase-project.org/">Seedcase guidebook</a>:</p>
 <ul>
-<li><span class="emoji" data-emoji="truck">🚚</span> rename logos, e.g., <code>au-logo.png</code> to <code>au.png</code> (#18)</li>
+<li><a href="https://guidebook.seedcase-project.org/workflows/prs">Pull requests</a></li>
+<li><a href="https://guidebook.seedcase-project.org/workflows/commits">Commits</a></li>
 </ul>
-</section>
-</section>
-<section id="section-1" class="level2">
-<h2 class="anchored" data-anchor-id="section-1">0.1.1 (2026-02-10)</h2>
-<section id="refactor-1" class="level3">
-<h3 class="anchored" data-anchor-id="refactor-1">Refactor</h3>
-<ul>
-<li>💄 white navbar with quarto grey bottom (#16)</li>
-</ul>
+<section id="development-setup" class="level3">
+<h3 class="anchored" data-anchor-id="development-setup">Development setup</h3>
+<p>If you want to test changes locally before pushing, you can clone the <a href="https://github.com/dp-next/dp-next-theme">dp-next-theme</a> repository and run the site locally. To do that, you need to install <a href="https://docs.astral.sh/uv/"><code>uv</code></a>, <a href="https://just.systems/"><code>just</code></a>, and <a href="https://quarto.org/docs/get-started/">Quarto</a>. Then run:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">just</span> install-precommit</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Run <code>just</code> to see all available commands. The most common one is <code>just run-all</code> that runs all checks and tests, including building the site locally to check for errors.</p>
 
 
-</section>
 </section>
 </section>
 
@@ -604,7 +676,7 @@ ul.task-list li input[type="checkbox"] {
  License: CC-BY 4.0
   </li>  
 </ul>
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/dp-next/dp-next-theme/edit/main/CHANGELOG.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/dp-next/dp-next-theme/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/dp-next/dp-next-theme/blob/main/CHANGELOG.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/dp-next/dp-next-theme/edit/main/guide/contributing.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/dp-next/dp-next-theme/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/dp-next/dp-next-theme/blob/main/guide/contributing.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>

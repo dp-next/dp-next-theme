@@ -1,5 +1,75 @@
 [
   {
+    "objectID": "guide/contributing.html",
+    "href": "guide/contributing.html",
+    "title": "Contributing",
+    "section": "",
+    "text": "This theme is a Quarto brand extension that provides a set of defaults and customisations on top of the base Bootstrap theme. It is used across DP-Next websites, so when making changes, be careful to avoid breaking things downstream.\nBefore adding custom CSS or JavaScript, check whether your change can be achieved through the theme files or existing Quarto or Bootstrap options—custom code can introduce accessibility issues and is harder to maintain."
+  },
+  {
+    "objectID": "guide/contributing.html#sec-theme-structure",
+    "href": "guide/contributing.html#sec-theme-structure",
+    "title": "Contributing",
+    "section": "Theme structure",
+    "text": "Theme structure\nThe theme lives entirely inside _extensions/dp-next-theme/. The two most important files are _brand.yml and _extension.yml.\n\n_brand.yml\nControls the visual identity of the theme: fonts, colours, and custom CSS rules. Edit this file to change the theme’s appearance. We use fonts from Bunny, a privacy-friendly alternative to Google Fonts. See Quarto’s Brand Elements page for available options.\n\n\n_extension.yml\nDefines the theme metadata and site-wide defaults. The contributes section is where you can set defaults for all sites using the theme like the navbar logo, favicon, or footer text.\n\n\nAdding logos\nLogos live in _extensions/dp-next-theme/logos/. Add new logos there, then reference them in _extension.yml (for navbar or favicon) or directly in .qmd files in repositories using the theme."
+  },
+  {
+    "objectID": "guide/contributing.html#contributing-changes",
+    "href": "guide/contributing.html#contributing-changes",
+    "title": "Contributing",
+    "section": "Contributing changes",
+    "text": "Contributing changes\nWhen contributing, make a pull request with your changes. For an introduction to the pull request and commit conventions we follow, see these chapters in the Seedcase guidebook:\n\nPull requests\nCommits\n\n\nDevelopment setup\nIf you want to test changes locally before pushing, you can clone the dp-next-theme repository and run the site locally. To do that, you need to install uv, just, and Quarto. Then run:\njust install-precommit\nRun just to see all available commands. The most common one is just run-all that runs all checks and tests, including building the site locally to check for errors."
+  },
+  {
+    "objectID": "LICENSE.html",
+    "href": "LICENSE.html",
+    "title": "MIT License",
+    "section": "",
+    "text": "MIT License\nCopyright (c) 2025-2026 dp-next-theme authors\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+  },
+  {
+    "objectID": "CHANGELOG.html",
+    "href": "CHANGELOG.html",
+    "title": "Changelog",
+    "section": "",
+    "text": "Since we follow Conventional Commits, we’re able to automatically create formal “releases” of the website based on our commit messages. Releases in the context of websites are simply snapshots in time of the website content. We use Commitizen to automatically create these releases using SemVer as the version numbering scheme.\nBecause releases are created based on commit messages, a new release is created quite often—sometimes several times in a day. This also means that any individual release will not have many changes within it. Below is a list of the releases we’ve made so far, along with what was changed within each release.\n\n\n\n\n\n🚚 rename logos, e.g., au-logo.png to au.png (#18)\n\n\n\n\n\n\n\n\n💄 white navbar with quarto grey bottom (#16)"
+  },
+  {
+    "objectID": "CHANGELOG.html#section",
+    "href": "CHANGELOG.html#section",
+    "title": "Changelog",
+    "section": "",
+    "text": "🚚 rename logos, e.g., au-logo.png to au.png (#18)"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-1",
+    "href": "CHANGELOG.html#section-1",
+    "title": "Changelog",
+    "section": "",
+    "text": "💄 white navbar with quarto grey bottom (#16)"
+  },
+  {
+    "objectID": "CONTRIBUTING.html",
+    "href": "CONTRIBUTING.html",
+    "title": "Contributing",
+    "section": "",
+    "text": "The easiest way to contribute is to report issues or bugs that you might find while using dp-next-theme. You can do this by creating a new issue on our GitHub repository.\n\n\n\nTo effectively contribute to dp-next-theme, you should install uv and justfile. We use uv and justfile to manage our project, such as to run checks and test the theme. Both the uv and justfile websites have a more detailed guide on using uv, but below are some simple instructions to get you started.\nIt’s easiest to install uv and justfile using pipx, so install that first. Then, install uv and justfile by running:\npipx install uv rust-just\nWe keep all our development workflows in the justfile, so you can explore it to see what commands are available. To see a list of commands available, open a Terminal while in the project folder and run:\njust\nAs you contribute, make sure your changes will pass our tests by opening a terminal so that the working directory is the root of this project (dp-next-theme/) and running:\njust run-all\nWhen committing changes, please try to follow Conventional Commits as Git messages. Using this convention allows us to be able to automatically create a release based on the commit message by using Commitizen. If you don’t use Conventional Commits when making a commit, we will revise the pull request title to follow that format, as we use squash merges when merging pull requests, so all other commits in the pull request will be squashed into one commit."
+  },
+  {
+    "objectID": "CONTRIBUTING.html#issues-and-bugs",
+    "href": "CONTRIBUTING.html#issues-and-bugs",
+    "title": "Contributing",
+    "section": "",
+    "text": "The easiest way to contribute is to report issues or bugs that you might find while using dp-next-theme. You can do this by creating a new issue on our GitHub repository."
+  },
+  {
+    "objectID": "CONTRIBUTING.html#adding-or-modifying-content",
+    "href": "CONTRIBUTING.html#adding-or-modifying-content",
+    "title": "Contributing",
+    "section": "",
+    "text": "To effectively contribute to dp-next-theme, you should install uv and justfile. We use uv and justfile to manage our project, such as to run checks and test the theme. Both the uv and justfile websites have a more detailed guide on using uv, but below are some simple instructions to get you started.\nIt’s easiest to install uv and justfile using pipx, so install that first. Then, install uv and justfile by running:\npipx install uv rust-just\nWe keep all our development workflows in the justfile, so you can explore it to see what commands are available. To see a list of commands available, open a Terminal while in the project folder and run:\njust\nAs you contribute, make sure your changes will pass our tests by opening a terminal so that the working directory is the root of this project (dp-next-theme/) and running:\njust run-all\nWhen committing changes, please try to follow Conventional Commits as Git messages. Using this convention allows us to be able to automatically create a release based on the commit message by using Commitizen. If you don’t use Conventional Commits when making a commit, we will revise the pull request title to follow that format, as we use squash merges when merging pull requests, so all other commits in the pull request will be squashed into one commit."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Welcome",
@@ -38,54 +108,5 @@
     "crumbs": [
       "Welcome"
     ]
-  },
-  {
-    "objectID": "CONTRIBUTING.html",
-    "href": "CONTRIBUTING.html",
-    "title": "Contributing",
-    "section": "",
-    "text": "The easiest way to contribute is to report issues or bugs that you might find while using dp-next-theme. You can do this by creating a new issue on our GitHub repository.\n\n\n\nTo effectively contribute to dp-next-theme, you should install uv and justfile. We use uv and justfile to manage our project, such as to run checks and test the theme. Both the uv and justfile websites have a more detailed guide on using uv, but below are some simple instructions to get you started.\nIt’s easiest to install uv and justfile using pipx, so install that first. Then, install uv and justfile by running:\npipx install uv rust-just\nWe keep all our development workflows in the justfile, so you can explore it to see what commands are available. To see a list of commands available, open a Terminal while in the project folder and run:\njust\nAs you contribute, make sure your changes will pass our tests by opening a terminal so that the working directory is the root of this project (dp-next-theme/) and running:\njust run-all\nWhen committing changes, please try to follow Conventional Commits as Git messages. Using this convention allows us to be able to automatically create a release based on the commit message by using Commitizen. If you don’t use Conventional Commits when making a commit, we will revise the pull request title to follow that format, as we use squash merges when merging pull requests, so all other commits in the pull request will be squashed into one commit."
-  },
-  {
-    "objectID": "CONTRIBUTING.html#issues-and-bugs",
-    "href": "CONTRIBUTING.html#issues-and-bugs",
-    "title": "Contributing",
-    "section": "",
-    "text": "The easiest way to contribute is to report issues or bugs that you might find while using dp-next-theme. You can do this by creating a new issue on our GitHub repository."
-  },
-  {
-    "objectID": "CONTRIBUTING.html#adding-or-modifying-content",
-    "href": "CONTRIBUTING.html#adding-or-modifying-content",
-    "title": "Contributing",
-    "section": "",
-    "text": "To effectively contribute to dp-next-theme, you should install uv and justfile. We use uv and justfile to manage our project, such as to run checks and test the theme. Both the uv and justfile websites have a more detailed guide on using uv, but below are some simple instructions to get you started.\nIt’s easiest to install uv and justfile using pipx, so install that first. Then, install uv and justfile by running:\npipx install uv rust-just\nWe keep all our development workflows in the justfile, so you can explore it to see what commands are available. To see a list of commands available, open a Terminal while in the project folder and run:\njust\nAs you contribute, make sure your changes will pass our tests by opening a terminal so that the working directory is the root of this project (dp-next-theme/) and running:\njust run-all\nWhen committing changes, please try to follow Conventional Commits as Git messages. Using this convention allows us to be able to automatically create a release based on the commit message by using Commitizen. If you don’t use Conventional Commits when making a commit, we will revise the pull request title to follow that format, as we use squash merges when merging pull requests, so all other commits in the pull request will be squashed into one commit."
-  },
-  {
-    "objectID": "CHANGELOG.html",
-    "href": "CHANGELOG.html",
-    "title": "Changelog",
-    "section": "",
-    "text": "Since we follow Conventional Commits, we’re able to automatically create formal “releases” of the website based on our commit messages. Releases in the context of websites are simply snapshots in time of the website content. We use Commitizen to automatically create these releases using SemVer as the version numbering scheme.\nBecause releases are created based on commit messages, a new release is created quite often—sometimes several times in a day. This also means that any individual release will not have many changes within it. Below is a list of the releases we’ve made so far, along with what was changed within each release.\n\n\n\n\n\n🚚 rename logos, e.g., au-logo.png to au.png (#18)\n\n\n\n\n\n\n\n\n💄 white navbar with quarto grey bottom (#16)"
-  },
-  {
-    "objectID": "CHANGELOG.html#section",
-    "href": "CHANGELOG.html#section",
-    "title": "Changelog",
-    "section": "",
-    "text": "🚚 rename logos, e.g., au-logo.png to au.png (#18)"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-1",
-    "href": "CHANGELOG.html#section-1",
-    "title": "Changelog",
-    "section": "",
-    "text": "💄 white navbar with quarto grey bottom (#16)"
-  },
-  {
-    "objectID": "LICENSE.html",
-    "href": "LICENSE.html",
-    "title": "MIT License",
-    "section": "",
-    "text": "MIT License\nCopyright (c) 2025-2026 dp-next-theme authors\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
   }
 ]
