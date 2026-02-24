@@ -58,4 +58,3 @@ build-readme:
 # Build the website using Quarto
 build-website:
     quarto render
-

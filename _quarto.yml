@@ -10,10 +10,10 @@ website:
     left:
       - text: "Welcome"
         href: index.qmd
-      - text: "Menu"
+      - text: "Guide"
         menu:
-          - href: index.qmd
-            text: "Home"
+          - text: "Contributing"
+            href: guide/contributing.qmd
   sidebar:
     contents:
       - index.qmd
