@@ -2,7 +2,7 @@
     just --list --unsorted
 
 # Run all check, test, and build commands.
-run-all: check test-theme build-readme
+run-all: check test-theme build-readme build-website
 
 # Run all checks
 check: check-spelling check-commits
@@ -41,3 +41,7 @@ test-theme:
 build-readme:
   # Use `uvx` in order to use Python and jupyter3
   uvx --from quarto quarto render README.qmd --to gfm
+
+# Build the website using Quarto
+build-website:
+    quarto render
