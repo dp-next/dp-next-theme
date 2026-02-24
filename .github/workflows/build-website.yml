@@ -5,33 +5,17 @@ on:
     branches:
       - main
 
-# You need these permissions to publish to GitHub pages
-permissions:
-  contents: write
-  pages: write
+# To force read only on all permissions at workflow level.
+permissions: read-all
 
 jobs:
-  build-deploy:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
-
-      - name: Set up Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
-        with:
-          # To install LaTeX to build PDF book
-          tinytex: false
-          # Uncomment below and fill to pin a version
-          # Version: SPECIFIC-QUARTO-VERSION-HERE
-
-      # Add software dependencies here and any libraries
-
-      # NOTE: If publishing to GitHub Pages, set the permissions correctly (see top of this yaml)
-      - name: Publish to GitHub Pages (and render)
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          target: gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for GitHub Actions
+  build-website:
+    uses: seedcase-project/.github/.github/workflows/reusable-build-docs.yml@main
+    # Only need these for this job.
+    permissions:
+      contents: write
+      pages: write
+    with:
+      hosting-provider: gh-pages
+    secrets:
+      github-token: ${{ secrets.GITHUB_TOKEN }}
