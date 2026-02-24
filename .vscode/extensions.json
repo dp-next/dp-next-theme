@@ -10,7 +10,8 @@
     "quarto.quarto",
     "pshaddel.conventional-branch",
     "EditorConfig.EditorConfig",
-    "tekumara.typos-vscode"
+    "tekumara.typos-vscode",
+    "rvben.rumdl"
   ],
   "unwantedRecommendations": []
 }
