@@ -12,7 +12,7 @@ downstream.
 Before adding custom CSS or JavaScript, check whether your change can be
 achieved through the theme files or existing
 [Quarto](https://quarto.org/docs/guide/) or
-[Bootstrap](https://getbootstrap.com/) options — custom code can
+[Bootstrap](https://getbootstrap.com/) options---custom code can
 introduce accessibility issues and is harder to maintain.
 
 ::: callout-note
