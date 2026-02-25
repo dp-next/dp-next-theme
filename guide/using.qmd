@@ -1,0 +1,80 @@
+---
+title: Using the DP-Next theme
+---
+
+This guide walks you through adding the DP-Next theme to a repository
+that uses Quarto.
+
+The DP-Next theme is a
+[Quarto brand extension](https://quarto.org/docs/extensions/brand.html),
+which you can install and use in your project. The extension provides
+the theme's styling (brand) as well as default website settings, such as
+the navbar, search bar, and page footer.
+
+## Before you begin
+
+Make sure you have the [Quarto](https://quarto.org/docs/get-started/)
+installed, version **1.8.0 or later**. Check your version by running
+`quarto --version` in a terminal.
+
+To add the DP-Next theme to your project, you need to have a git
+repository set up locally on your computer. So either:
+
+1. Create a Git repository locally or on GitHub, and clone it to
+   your computer.
+2. Use an existing repository and clone it to your computer. If you have
+   the repository locally already, make sure to pull the latest changes
+   before continuing.
+
+## Add the theme to your project
+
+To add the DP-Next theme to your project, run the following command in
+the terminal, from the root of your project:
+
+```bash
+quarto add dp-next/dp-next-theme
+```
+
+This command adds the DP-Next theme to your project in the
+`_extensions/` folder. In the `_extensions/dp-next-theme/` folder, you
+can find the theme files as well as images such as logos.
+
+Then, add to your `_quarto.yml` file that the project is of type
+`dp-next-theme`:
+
+```{.yaml filename="_quarto.yml"}
+project:
+  type: dp-next-theme
+```
+
+This will apply the DP-Next theme to your project, including the
+default website settings.
+
+::: callout-note
+If you only need the visual styling for a **single standalone document**
+(not a full website), omit the `project` key shown above and set
+the `format` instead:
+
+```{.yaml filename="_quarto.yml"}
+format: dp-next-theme-html
+```
+:::
+
+## Update the theme
+
+To update the `dp-next-theme`, run:
+
+``` bash
+quarto update dp-next/dp-next-theme
+```
+
+This replaces the files in `_extensions/dp-next-theme/` with the newest
+version from the `dp-next-theme` repository. Commit the updated
+extension files to GitHub to apply the update to your project.
+
+## Getting help
+
+If you have any questions about using the DP-Next theme, please reach
+out by opening an
+[issue](https://github.com/dp-next/dp-next-theme/issues/new) in the
+`dp-next-theme` GitHub repository.
