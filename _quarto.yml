@@ -12,6 +12,8 @@ website:
         href: index.qmd
       - text: "Guide"
         menu:
+          - text: "Using the theme"
+            href: guide/using.qmd
           - text: "Contributing"
             href: guide/contributing.qmd
           - text: "Example"
