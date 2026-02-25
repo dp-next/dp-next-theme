@@ -23,6 +23,8 @@ To install the extension, use:
 quarto add dp-next/dp-next-theme
 ```
 
+This will install the extension under the `_extensions` subdirectory.
+
 To update the `dp-next-theme`, run:
 
 ``` bash
@@ -30,6 +32,10 @@ quarto update dp-next/dp-next-theme
 ```
 
 ## Using
+
+This extension installs a
+[brand.yml](https://posit-dev.github.io/brand-yml/) configuration for
+DP-Next.
 
 After installing the extension, add the below yaml key-value pair to the
 `_quarto.yml` file:
@@ -45,10 +51,13 @@ project:
   type: dp-next-theme
 ```
 
+## Example
+
+Here is the source code for a minimal example:
+[example.qmd](example.qmd).
+
 See this repository’s
 [`_quarto.yml`](https://github.com/dp-next/dp-next-theme/blob/main/_quarto.yml)
-and
-[`index.qmd`](https://github.com/dp-next/dp-next-theme/blob/main/index.qmd)
 files for examples of how you would use this extension.
 
 ## Contributing
