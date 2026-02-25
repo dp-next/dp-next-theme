@@ -64,11 +64,22 @@ guidebook](https://guidebook.seedcase-project.org/):
 
 ### Development setup
 
-If you want to test changes locally before pushing, you can clone the
+To test changes locally, clone the
 [dp-next-theme](https://github.com/dp-next/dp-next-theme) repository and
-run the site locally. To do that, you need to install
-[`uv`](https://docs.astral.sh/uv/), [`just`](https://just.systems/), and
-[Quarto](https://quarto.org/docs/get-started/). Then run:
+install the following tools:
+
+- [`uv`](https://docs.astral.sh/uv/)
+- [`just`](https://just.systems/)
+- [Quarto](https://quarto.org/docs/get-started/)
+
+The easiest way to install `uv` and `just` is with
+[pipx](https://pypa.github.io/pipx/):
+
+``` bash
+pipx install uv rust-just
+```
+
+Then set up the pre-commit hooks with:
 
 ``` bash
 just install-precommit
@@ -77,3 +88,15 @@ just install-precommit
 Run `just` to see all available commands. The most common one is
 `just run-all` that runs all checks and tests, including building the
 site locally to check for errors.
+
+### Commits and pull requests
+
+When committing changes, try to follow the
+[Conventional Commits](https://decisions.seedcase-project.org/why-conventional-commits)
+standard for your Git messages. This lets us auto-generate releases
+using
+[Commitizen](https://decisions.seedcase-project.org/why-semantic-release-with-commitizen).
+If your commits don't follow this convention, we'll revise the pull
+request title before merging — we use
+[squash merges](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/squashing-commits/about-squash-merges),
+so all commits in a pull request are squashed into one.
