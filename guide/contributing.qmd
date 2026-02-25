@@ -96,6 +96,6 @@ standard for your Git messages. This lets us auto-generate releases
 using
 [Commitizen](https://decisions.seedcase-project.org/why-semantic-release-with-commitizen).
 If your commits don't follow this convention, we'll revise the pull
-request title before merging — we use
+request title before merging---we use
 [squash merges](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/squashing-commits/about-squash-merges),
 so all commits in a pull request are squashed into one.
