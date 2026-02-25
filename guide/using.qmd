@@ -13,34 +13,36 @@ the navbar, search bar, and page footer.
 
 ## Before you begin
 
-Make sure you have the [Quarto](https://quarto.org/docs/get-started/)
-installed, version **1.8.0 or later**. Check your version by running
+Make sure you have [Quarto](https://quarto.org/docs/get-started/)
+installed with version **1.8.0 or later**. Check your version by running
 `quarto --version` in a terminal.
 
-To add the DP-Next theme to your project, you need to have a git
+To add the DP-Next theme to your project, you need to have a Git
 repository set up locally on your computer. So either:
 
-1. Create a Git repository locally or on GitHub, and clone it to
-   your computer.
-2. Use an existing repository and clone it to your computer. If you have
-   the repository locally already, make sure to pull the latest changes
-   before continuing.
+1. Create a Git repository locally.
+2. Create a Git repository on GitHub and clone it to your computer.
+3. Clone an existing repository to your computer if you don't have it on your computer.
+4. Pull the latest changes from an existing repository if you have the repository on your computer already.
 
 ## Add the theme to your project
 
 To add the DP-Next theme to your project, run the following command in
-the terminal, from the root of your project:
+the terminal while in the root (working directory) of your project. You
+can either enter the working directory by opening a terminal and using `cd`
+or by opening the project in RStudio or VS Code and using the terminal in
+those apps.
 
 ```bash
 quarto add dp-next/dp-next-theme
 ```
 
 This command adds the DP-Next theme to your project in the
-`_extensions/` folder. In the `_extensions/dp-next-theme/` folder, you
+`_extensions/` folder. In the `_extensions/dp-next/dp-next-theme/` folder, you
 can find the theme files as well as images such as logos.
 
-Then, add to your `_quarto.yml` file that the project is of type
-`dp-next-theme`:
+Then, open your `_quarto.yml` file and change the "type" of your project to
+`dp-next-theme`, which looks like:
 
 ```{.yaml filename="_quarto.yml"}
 project:
@@ -50,15 +52,6 @@ project:
 This will apply the DP-Next theme to your project, including the
 default website settings.
 
-::: callout-note
-If you only need the visual styling for a **single standalone document**
-(not a full website), omit the `project` key shown above and set
-the `format` instead:
-
-```{.yaml filename="_quarto.yml"}
-format: dp-next-theme-html
-```
-:::
 
 ## Update the theme
 
@@ -68,9 +61,9 @@ To update the `dp-next-theme`, run:
 quarto update dp-next/dp-next-theme
 ```
 
-This replaces the files in `_extensions/dp-next-theme/` with the newest
+This replaces the files in `_extensions/dp-next/dp-next-theme/` with the newest
 version from the `dp-next-theme` repository. Commit the updated
-extension files to GitHub to apply the update to your project.
+extension files to the Git history and push to GitHub so that your rendered output can use the theme :tada:
 
 ## Getting help
 
