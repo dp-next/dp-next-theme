@@ -4,9 +4,12 @@ authors:
     orcid: 0009-0000-2208-7088
   - name: Luke W. Johnston
     orcid: 0000-0003-4169-2616
-version: 0.1.2
-quarto-required: ">=1.7.0"
+version: 0.1.3
+quarto-required: ">=1.8.0"
 contributes:
+  metadata:
+    project:
+      brand: brand.yml
   formats:
     common:
       shortcodes:
@@ -44,5 +47,3 @@ contributes:
           - text: "License: CC-BY 4.0"
 
     csl: vancouver.csl
-    format: dp-next-theme-html
-    brand: _brand.yml
