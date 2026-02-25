@@ -1,4 +1,4 @@
-# Used to test out the theme
+# currently a quarto project is required for metadata or brand extensions to work
 project:
   type: dp-next-theme
 
@@ -16,11 +16,11 @@ website:
             href: guide/using.qmd
           - text: "Contributing"
             href: guide/contributing.qmd
+          - text: "Example"
+            href: example.qmd
   sidebar:
     contents:
       - index.qmd
-
-format: dp-next-theme-html
 
 execute:
   echo: false
