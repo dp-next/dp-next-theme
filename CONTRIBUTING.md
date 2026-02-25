@@ -11,5 +11,5 @@ issue on our GitHub repository.
 
 For a full guide on setting up a development environment and making
 changes to the theme, see the
-[contributing guide](https://dp-next.github.io/dp-next-theme/docs/contributing.html)
+[contributing guide](https://dp-next.github.io/dp-next-theme/guide/contributing.html)
 on our website.
