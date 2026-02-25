@@ -189,6 +189,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#contributing-changes" id="toc-contributing-changes" class="nav-link" data-scroll-target="#contributing-changes">Contributing changes</a>
   <ul class="collapse">
   <li><a href="#development-setup" id="toc-development-setup" class="nav-link" data-scroll-target="#development-setup">Development setup</a></li>
+  <li><a href="#commits-and-pull-requests" id="toc-commits-and-pull-requests" class="nav-link" data-scroll-target="#commits-and-pull-requests">Commits and pull requests</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/dp-next/dp-next-theme/edit/main/guide/contributing.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/dp-next/dp-next-theme/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/dp-next/dp-next-theme/blob/main/guide/contributing.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
@@ -255,9 +256,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 <section id="development-setup" class="level3">
 <h3 class="anchored" data-anchor-id="development-setup">Development setup</h3>
-<p>If you want to test changes locally before pushing, you can clone the <a href="https://github.com/dp-next/dp-next-theme">dp-next-theme</a> repository and run the site locally. To do that, you need to install <a href="https://docs.astral.sh/uv/"><code>uv</code></a>, <a href="https://just.systems/"><code>just</code></a>, and <a href="https://quarto.org/docs/get-started/">Quarto</a>. Then run:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">just</span> install-precommit</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>Run <code>just</code> to see all available commands. The most common one is <code>just run-all</code> that runs all checks and tests, including building the site locally to check for errors.</p>
+<p>To test changes locally, clone the <a href="https://github.com/dp-next/dp-next-theme">dp-next-theme</a> repository and install the following tools:</p>
+<ul>
+<li><a href="https://docs.astral.sh/uv/"><code>uv</code></a></li>
+<li><a href="https://just.systems/"><code>just</code></a></li>
+<li><a href="https://quarto.org/docs/get-started/">Quarto</a></li>
+</ul>
+<p>The easiest way to install <code>uv</code> and <code>just</code> is with <a href="https://pypa.github.io/pipx/">pipx</a>:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pipx</span> install uv rust-just</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Then set up the pre-commit hooks with:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">just</span> install-precommit</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Run <code>just</code> to see all available commands. The most common one is <code>just run-all</code>, which runs all checks and tests including building the site locally to check for errors.</p>
+</section>
+<section id="commits-and-pull-requests" class="level3">
+<h3 class="anchored" data-anchor-id="commits-and-pull-requests">Commits and pull requests</h3>
+<p>When committing changes, try to follow the <a href="https://decisions.seedcase-project.org/why-conventional-commits">Conventional Commits</a> standard for your Git messages. This lets us auto-generate releases using <a href="https://decisions.seedcase-project.org/why-semantic-release-with-commitizen">Commitizen</a>. If your commits don’t follow this convention, we’ll revise the pull request title before merging—we use <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/squashing-commits/about-squash-merges">squash merges</a>, so all commits in a pull request are squashed into one.</p>
 
 
 </section>
