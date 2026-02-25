@@ -2,9 +2,9 @@
 title: Contributing
 ---
 
-This theme is a [Quarto brand
-extension](https://quarto.org/docs/extensions/brand.html) that provides
-a set of defaults and customisations on top of the base
+This theme is a
+[Quarto brand extension](https://quarto.org/docs/extensions/brand.html)
+that provides a set of defaults and customisations on top of the base
 [Bootstrap](https://getbootstrap.com/) theme. It is used across DP-Next
 websites, so when making changes, be careful to avoid breaking things
 downstream.
@@ -34,8 +34,8 @@ most important files are `_brand.yml` and `_extension.yml`.
 Controls the visual identity of the theme: fonts, colours, and custom
 CSS rules. Edit this file to change the theme's appearance. We use fonts
 from [Bunny](https://fonts.bunny.net/), a privacy-friendly alternative
-to Google Fonts. See Quarto's [Brand
-Elements](https://quarto.org/docs/authoring/brand.html#brand-elements)
+to Google Fonts. See Quarto's
+[Brand Elements](https://quarto.org/docs/authoring/brand.html#brand-elements)
 page for available options.
 
 ### `_extension.yml`
@@ -52,28 +52,50 @@ directly in `.qmd` files in repositories using the theme.
 
 ## Contributing changes
 
-When contributing, make a [pull
-request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
+When contributing, make a
+[pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 with your changes. For an introduction to the pull request and commit
-conventions we follow, see these chapters in the [Seedcase
-guidebook](https://guidebook.seedcase-project.org/):
+conventions we follow, see these chapters in the
+[Seedcase guidebook](https://guidebook.seedcase-project.org/):
 
-- [Pull
-    requests](https://guidebook.seedcase-project.org/workflows/prs)
+- [Pull requests](https://guidebook.seedcase-project.org/workflows/prs)
 - [Commits](https://guidebook.seedcase-project.org/workflows/commits)
 
 ### Development setup
 
-If you want to test changes locally before pushing, you can clone the
+To test changes locally, clone the
 [dp-next-theme](https://github.com/dp-next/dp-next-theme) repository and
-run the site locally. To do that, you need to install
-[`uv`](https://docs.astral.sh/uv/), [`just`](https://just.systems/), and
-[Quarto](https://quarto.org/docs/get-started/). Then run:
+install the following tools:
+
+- [`uv`](https://docs.astral.sh/uv/)
+- [`just`](https://just.systems/)
+- [Quarto](https://quarto.org/docs/get-started/)
+
+The easiest way to install `uv` and `just` is with
+[pipx](https://pypa.github.io/pipx/):
+
+``` bash
+pipx install uv rust-just
+```
+
+Then set up the pre-commit hooks with:
 
 ``` bash
 just install-precommit
 ```
 
 Run `just` to see all available commands. The most common one is
-`just run-all` that runs all checks and tests, including building the
+`just run-all`, which runs all checks and tests including building the
 site locally to check for errors.
+
+### Commits and pull requests
+
+When committing changes, try to follow the
+[Conventional Commits](https://decisions.seedcase-project.org/why-conventional-commits)
+standard for your Git messages. This lets us auto-generate releases
+using
+[Commitizen](https://decisions.seedcase-project.org/why-semantic-release-with-commitizen).
+If your commits don't follow this convention, we'll revise the pull
+request title before merging---we use
+[squash merges](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/squashing-commits/about-squash-merges),
+so all commits in a pull request are squashed into one.
