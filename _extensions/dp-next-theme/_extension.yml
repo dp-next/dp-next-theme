@@ -7,6 +7,9 @@ authors:
 version: 0.1.2
 quarto-required: ">=1.8.0"
 contributes:
+  metadata:
+    project:
+      brand: brand.yml
   formats:
     common:
       shortcodes:
@@ -44,5 +47,3 @@ contributes:
           - text: "License: CC-BY 4.0"
 
     csl: vancouver.csl
-    format: dp-next-theme-html
-    brand: _brand.yml
