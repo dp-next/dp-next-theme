@@ -32,14 +32,14 @@
     "href": "CHANGELOG.html",
     "title": "Changelog",
     "section": "",
-    "text": "Since we follow Conventional Commits, we’re able to automatically create formal “releases” of the website based on our commit messages. Releases in the context of websites are simply snapshots in time of the website content. We use Commitizen to automatically create these releases using SemVer as the version numbering scheme.\nBecause releases are created based on commit messages, a new release is created quite often—sometimes several times in a day. This also means that any individual release will not have many changes within it. Below is a list of the releases we’ve made so far, along with what was changed within each release.\n\n\n\n\n\n🚚 rename logos, e.g., au-logo.png to au.png (#18)\n\n\n\n\n\n\n\n\n💄 white navbar with quarto grey bottom (#16)"
+    "text": "Since we follow Conventional Commits, we’re able to automatically create formal “releases” of the website based on our commit messages. Releases in the context of websites are simply snapshots in time of the website content. We use Commitizen to automatically create these releases using SemVer as the version numbering scheme.\nBecause releases are created based on commit messages, a new release is created quite often—sometimes several times in a day. This also means that any individual release will not have many changes within it. Below is a list of the releases we’ve made so far, along with what was changed within each release.\n\n\n\n\n\n:truck: rename logos, e.g., au-logo.png to au.png (#18)\n\n\n\n\n\n\n\n\n💄 white navbar with quarto grey bottom (#16)"
   },
   {
     "objectID": "CHANGELOG.html#section",
     "href": "CHANGELOG.html#section",
     "title": "Changelog",
     "section": "",
-    "text": "🚚 rename logos, e.g., au-logo.png to au.png (#18)"
+    "text": ":truck: rename logos, e.g., au-logo.png to au.png (#18)"
   },
   {
     "objectID": "CHANGELOG.html#section-1",
@@ -49,6 +49,34 @@
     "text": "💄 white navbar with quarto grey bottom (#16)"
   },
   {
+    "objectID": "example.html",
+    "href": "example.html",
+    "title": "Example page",
+    "section": "",
+    "text": "Below is an example page that shows the theme’s features and styling. You can edit this page to test changes to the theme. For guidelines on contributing to the theme, see the contributing guide.\n\n\nThis is the test landing page! With a link! And an emoji :grin:\nA primary button A secondary button\nA reference to another header in the same document.\nRandom text: The shoes had been there for as long as anyone could remember. In fact, it was difficult for anyone to come up with a date they had first appeared. It had seemed they’d always been there and yet they seemed so out of place. Why nobody had removed them was a question that had been asked time and again, but while they all thought it, nobody had ever found the energy to actually do it. So, the shoes remained on the steps, out of place in one sense, but perfectly normal in another.\nHere’s a table:\n\n\n\nName\nAge\n\n\n\n\nJohn\n23\n\n\nJane\n24\n\n\n\nA list:\n\nfirst\nsecond\nthird\n\nA callout block:\n\n\n\n\n\n\nTipHeader within callout block\n\n\n\nSome text.\n\n\n\n\n\n\n\n\nThis is a caption\n\n\nHere’s some inline code in a sentence.\nA code block:\ndef hello_world():\n    print(\"Hello, world!\")\n\n\n\n\n\n\n\n\n\nflowchart TB\n    user([\"User&lt;br&gt;[person]\"])\n    subgraph python\n        package[\"Functions&lt;br&gt;[Python]\"]\n    end\n    output[(\"Filesystem\")]\n\n    user --&gt; python:::system\n    sprout --&gt; output:::external\n\n    classDef system fill:none\n    classDef external fill:lightgrey\n\n\n Simple mermaid diagram"
+  },
+  {
+    "objectID": "example.html#introduction",
+    "href": "example.html#introduction",
+    "title": "Example page",
+    "section": "",
+    "text": "This is the test landing page! With a link! And an emoji :grin:\nA primary button A secondary button\nA reference to another header in the same document.\nRandom text: The shoes had been there for as long as anyone could remember. In fact, it was difficult for anyone to come up with a date they had first appeared. It had seemed they’d always been there and yet they seemed so out of place. Why nobody had removed them was a question that had been asked time and again, but while they all thought it, nobody had ever found the energy to actually do it. So, the shoes remained on the steps, out of place in one sense, but perfectly normal in another.\nHere’s a table:\n\n\n\nName\nAge\n\n\n\n\nJohn\n23\n\n\nJane\n24\n\n\n\nA list:\n\nfirst\nsecond\nthird\n\nA callout block:\n\n\n\n\n\n\nTipHeader within callout block\n\n\n\nSome text."
+  },
+  {
+    "objectID": "example.html#another",
+    "href": "example.html#another",
+    "title": "Example page",
+    "section": "",
+    "text": "This is a caption\n\n\nHere’s some inline code in a sentence.\nA code block:\ndef hello_world():\n    print(\"Hello, world!\")"
+  },
+  {
+    "objectID": "example.html#simple-mermaid-diagram",
+    "href": "example.html#simple-mermaid-diagram",
+    "title": "Example page",
+    "section": "",
+    "text": "flowchart TB\n    user([\"User&lt;br&gt;[person]\"])\n    subgraph python\n        package[\"Functions&lt;br&gt;[Python]\"]\n    end\n    output[(\"Filesystem\")]\n\n    user --&gt; python:::system\n    sprout --&gt; output:::external\n\n    classDef system fill:none\n    classDef external fill:lightgrey\n\n\n Simple mermaid diagram"
+  },
+  {
     "objectID": "CONTRIBUTING.html",
     "href": "CONTRIBUTING.html",
     "title": "Contributing",
@@ -56,15 +84,15 @@
     "text": "The easiest way to contribute is to report issues or bugs that you might find while using dp-next-theme. You can do this by creating a new issue on our GitHub repository.\n\n\n\nFor a full guide on setting up a development environment and making changes to the theme, see the contributing guide on our website."
   },
   {
-    "objectID": "CONTRIBUTING.html#issues-and-bugs",
-    "href": "CONTRIBUTING.html#issues-and-bugs",
+    "objectID": "CONTRIBUTING.html#bug-issues-and-bugs",
+    "href": "CONTRIBUTING.html#bug-issues-and-bugs",
     "title": "Contributing",
     "section": "",
     "text": "The easiest way to contribute is to report issues or bugs that you might find while using dp-next-theme. You can do this by creating a new issue on our GitHub repository."
   },
   {
-    "objectID": "CONTRIBUTING.html#adding-or-modifying-content",
-    "href": "CONTRIBUTING.html#adding-or-modifying-content",
+    "objectID": "CONTRIBUTING.html#pencil2-adding-or-modifying-content",
+    "href": "CONTRIBUTING.html#pencil2-adding-or-modifying-content",
     "title": "Contributing",
     "section": "",
     "text": "For a full guide on setting up a development environment and making changes to the theme, see the contributing guide on our website."
@@ -84,7 +112,7 @@
     "href": "index.html#introduction",
     "title": "Welcome",
     "section": "Introduction",
-    "text": "Introduction\nThis is the test landing page! With a link! And an emoji 😁\nA primary button A secondary button\nA reference to another header in the same document.\nRandom text: The shoes had been there for as long as anyone could remember. In fact, it was difficult for anyone to come up with a date they had first appeared. It had seemed they’d always been there and yet they seemed so out of place. Why nobody had removed them was a question that had been asked time and again, but while they all thought it, nobody had ever found the energy to actually do it. So, the shoes remained on the steps, out of place in one sense, but perfectly normal in another.\nHere’s a table:\n\n\n\nName\nAge\n\n\n\n\nJohn\n23\n\n\nJane\n24\n\n\n\nA list:\n\nfirst\nsecond\nthird\n\nA callout block:\n\n\n\n\n\n\nTipHeader within callout block\n\n\n\nSome text.",
+    "text": "Introduction\nThis is the test landing page! With a link! And an emoji :grin:\nA primary button A secondary button\nA reference to another header in the same document.\nRandom text: The shoes had been there for as long as anyone could remember. In fact, it was difficult for anyone to come up with a date they had first appeared. It had seemed they’d always been there and yet they seemed so out of place. Why nobody had removed them was a question that had been asked time and again, but while they all thought it, nobody had ever found the energy to actually do it. So, the shoes remained on the steps, out of place in one sense, but perfectly normal in another.\nHere’s a table:\n\n\n\nName\nAge\n\n\n\n\nJohn\n23\n\n\nJane\n24\n\n\n\nA list:\n\nfirst\nsecond\nthird\n\nA callout block:\n\n\n\n\n\n\nTipHeader within callout block\n\n\n\nSome text.",
     "crumbs": [
       "Welcome"
     ]

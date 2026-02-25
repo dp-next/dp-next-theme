@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>license – DP-Next theme</title>
+<title>example – DP-Next theme</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -70,6 +105,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -146,19 +184,103 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content page-columns page-full" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-<section id="mit-license" class="level1">
-<h1>MIT License</h1>
-<p>Copyright (c) 2025-2026 dp-next-theme authors</p>
-<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
-<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
-<p>THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+<section id="example-page" class="level1 page-columns page-full">
+<h1>Example page</h1>
+<p>Below is an example page that shows the theme’s features and styling. You can edit this page to test changes to the theme. For guidelines on contributing to the theme, see the <a href="./guide/contributing.html">contributing guide</a>.</p>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>This is the test landing page! With a <a href="https://duckduckgo.com/">link</a>! And an emoji :grin:</p>
+<p><a href="nonexisting-link" class="btn btn-primary">A primary button</a> <a href="nonexisting-link" class="btn btn-secondary">A secondary button</a></p>
+<p>A reference to <a href="./index.html#another">another header</a> in the same document.</p>
+<p>Random text: The shoes had been there for as long as anyone could remember. In fact, it was difficult for anyone to come up with a date they had first appeared. It had seemed they’d always been there and yet they seemed so out of place. Why nobody had removed them was a question that had been asked time and again, but while they all thought it, nobody had ever found the energy to actually do it. So, the shoes remained on the steps, out of place in one sense, but perfectly normal in another.</p>
+<p>Here’s a table:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Age</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>John</td>
+<td>23</td>
+</tr>
+<tr class="even">
+<td>Jane</td>
+<td>24</td>
+</tr>
+</tbody>
+</table>
+<p>A list:</p>
+<ol type="1">
+<li>first</li>
+<li>second</li>
+<li>third</li>
+</ol>
+<p>A callout block:</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Header within callout block
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Some text.</p>
+</div>
+</div>
+</section>
+<section id="another" class="level2">
+<h2 class="anchored" data-anchor-id="another">Another</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="site_libs/quarto-contrib/quarto-project/dp-next-theme/logos/sdca.png" class="img-fluid figure-img" width="200"></p>
+<figcaption>This is a caption</figcaption>
+</figure>
+</div>
+<p>Here’s some <code>inline code</code> in a sentence.</p>
+<p>A code block:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> hello_world():</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">"Hello, world!"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="simple-mermaid-diagram" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="simple-mermaid-diagram">Simple mermaid diagram</h2>
+<div class="column-page">
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TB
+    user(["User&lt;br&gt;[person]"])
+    subgraph python
+        package["Functions&lt;br&gt;[Python]"]
+    end
+    output[("Filesystem")]
+
+    user --&gt; python:::system
+    sprout --&gt; output:::external
+
+    classDef system fill:none
+    classDef external fill:lightgrey
+</pre>
+</div>
+<p></p><figcaption> Simple mermaid diagram</figcaption> </figure><p></p>
+</div>
+</div>
+</div>
+</div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -574,7 +696,7 @@ ul.task-list li input[type="checkbox"] {
  License: CC-BY 4.0
   </li>  
 </ul>
-    <div class="toc-actions"><ul><li><a href="https://github.com/dp-next/dp-next-theme/edit/main/LICENSE.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/dp-next/dp-next-theme/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/dp-next/dp-next-theme/blob/main/LICENSE.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div>
+    <div class="toc-actions"><ul><li><a href="https://github.com/dp-next/dp-next-theme/edit/main/example.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/dp-next/dp-next-theme/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/dp-next/dp-next-theme/blob/main/example.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
