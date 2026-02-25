@@ -16,9 +16,6 @@ website:
             href: guide/contributing.qmd
           - text: "Example"
             href: example.qmd
-  sidebar:
-    contents:
-      - index.qmd
 
 execute:
   echo: false
