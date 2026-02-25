@@ -32,18 +32,25 @@
     "href": "CHANGELOG.html",
     "title": "Changelog",
     "section": "",
-    "text": "Since we follow Conventional Commits, we’re able to automatically create formal “releases” of the website based on our commit messages. Releases in the context of websites are simply snapshots in time of the website content. We use Commitizen to automatically create these releases using SemVer as the version numbering scheme.\nBecause releases are created based on commit messages, a new release is created quite often—sometimes several times in a day. This also means that any individual release will not have many changes within it. Below is a list of the releases we’ve made so far, along with what was changed within each release.\n\n\n\n\n\n:truck: rename logos, e.g., au-logo.png to au.png (#18)\n\n\n\n\n\n\n\n\n💄 white navbar with quarto grey bottom (#16)"
+    "text": "Since we follow Conventional Commits, we’re able to automatically create formal “releases” of the website based on our commit messages. Releases in the context of websites are simply snapshots in time of the website content. We use Commitizen to automatically create these releases using SemVer as the version numbering scheme.\nBecause releases are created based on commit messages, a new release is created quite often—sometimes several times in a day. This also means that any individual release will not have many changes within it. Below is a list of the releases we’ve made so far, along with what was changed within each release.\n\n\n\n\n\n♻️ use Quarto brand extension structure (#31)\n\n\n\n\n\n\n\n\n:truck: rename logos, e.g., au-logo.png to au.png (#18)\n\n\n\n\n\n\n\n\n💄 white navbar with quarto grey bottom (#16)"
   },
   {
     "objectID": "CHANGELOG.html#section",
     "href": "CHANGELOG.html#section",
     "title": "Changelog",
     "section": "",
-    "text": ":truck: rename logos, e.g., au-logo.png to au.png (#18)"
+    "text": "♻️ use Quarto brand extension structure (#31)"
   },
   {
     "objectID": "CHANGELOG.html#section-1",
     "href": "CHANGELOG.html#section-1",
+    "title": "Changelog",
+    "section": "",
+    "text": ":truck: rename logos, e.g., au-logo.png to au.png (#18)"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-2",
+    "href": "CHANGELOG.html#section-2",
     "title": "Changelog",
     "section": "",
     "text": "💄 white navbar with quarto grey bottom (#16)"
