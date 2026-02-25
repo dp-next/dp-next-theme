@@ -14,9 +14,6 @@ website:
         menu:
           - text: "Contributing"
             href: guide/contributing.qmd
-  sidebar:
-    contents:
-      - index.qmd
 
 format: dp-next-theme-html
 
