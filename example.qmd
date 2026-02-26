@@ -1,4 +1,7 @@
-# Example page
+---
+title: Examples of features and styling
+order: 3
+---
 
 Below is an example page that shows the theme's features and styling.
 You can edit this page to test changes to the theme. For guidelines on
@@ -7,7 +10,7 @@ contributing to the theme, see the
 
 ## Introduction
 
-This is the test landing page! With a [link](https://duckduckgo.com/)!
+This is the test page! With a [link](https://duckduckgo.com/)!
 And an emoji :grin:
 
 [A primary button](nonexisting-link){.btn .btn-primary} [A secondary
