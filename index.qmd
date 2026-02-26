@@ -3,8 +3,7 @@ toc: false
 listing:
     type: grid
     contents:
-        - guide/using.qmd
-        - guide/contributing.qmd
+        - guide/*.qmd
         - example.qmd
     fields: [title]
 ---
