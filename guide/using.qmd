@@ -1,15 +1,10 @@
 ---
-title: Using the DP-Next theme
+title: Using the theme
+order: 1
 ---
 
 This guide walks you through adding the DP-Next theme to a repository
 that uses Quarto.
-
-The DP-Next theme is a
-[Quarto brand extension](https://quarto.org/docs/extensions/brand.html),
-which you can install and use in your project. The extension provides
-the theme's styling (brand) as well as default website settings, such as
-the navbar, search bar, and page footer.
 
 ## Before you begin
 
@@ -51,8 +46,14 @@ project:
   type: dp-next-theme
 ```
 
-This will apply the DP-Next theme to your project, including the
-default website settings.
+Once you've added the theme, it will be applied to your project. This
+means that your project will now have the DP-Next theme's styling and
+features, as well as the default website settings that come with the
+theme, such as the navigation bar, search bar, and page footer.
+
+If you want to change or update the theme's default settings, please
+contribute to the theme by following the instructions in the
+[contributing guide](guide/contributing.qmd).
 
 ## Update the theme
 

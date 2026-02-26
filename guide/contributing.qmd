@@ -1,5 +1,6 @@
 ---
-title: Contributing
+title: Contributing to the theme
+order: 2
 ---
 
 This theme is a
