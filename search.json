@@ -1,115 +1,31 @@
 [
   {
-    "objectID": "guide/using.html",
-    "href": "guide/using.html",
-    "title": "Using the DP-Next theme",
-    "section": "",
-    "text": "This guide walks you through adding the DP-Next theme to a repository that uses Quarto.\nThe DP-Next theme is a Quarto brand extension, which you can install and use in your project. The extension provides the theme’s styling (brand) as well as default website settings, such as the navbar, search bar, and page footer."
-  },
-  {
-    "objectID": "guide/using.html#before-you-begin",
-    "href": "guide/using.html#before-you-begin",
-    "title": "Using the DP-Next theme",
-    "section": "Before you begin",
-    "text": "Before you begin\nMake sure you have Quarto installed with version 1.8.0 or later. Check your version by running quarto --version in a terminal.\nTo add the DP-Next theme to your project, you need to have a Git repository set up locally on your computer. So either:\n\nCreate a Git repository locally.\nCreate a Git repository on GitHub and clone it to your computer.\nClone an existing repository to your computer if you don’t have it on your computer.\nPull the latest changes from an existing repository if you have the repository on your computer already."
-  },
-  {
-    "objectID": "guide/using.html#add-the-theme-to-your-project",
-    "href": "guide/using.html#add-the-theme-to-your-project",
-    "title": "Using the DP-Next theme",
-    "section": "Add the theme to your project",
-    "text": "Add the theme to your project\nTo add the DP-Next theme to your project, run the following command in the terminal while in the root (working directory) of your project. You can either enter the working directory by opening a terminal and using cd or by opening the project in RStudio or VS Code and using the terminal in those apps.\nquarto add dp-next/dp-next-theme\nThis command adds the DP-Next theme to your project in the _extensions/ folder. In the _extensions/dp-next/dp-next-theme/ folder, you can find the theme files as well as images such as logos.\nThen, open your _quarto.yml file and change the “type” of your project to dp-next-theme, which looks like:\n\n\n_quarto.yml\n\nproject:\n  type: dp-next-theme\n\nThis will apply the DP-Next theme to your project, including the default website settings."
-  },
-  {
-    "objectID": "guide/using.html#update-the-theme",
-    "href": "guide/using.html#update-the-theme",
-    "title": "Using the DP-Next theme",
-    "section": "Update the theme",
-    "text": "Update the theme\nTo update the dp-next-theme, run:\nquarto update dp-next/dp-next-theme\nThis replaces the files in _extensions/dp-next/dp-next-theme/ with the newest version from the dp-next-theme repository. Commit the updated extension files to the Git history and push to GitHub so that your rendered output can use the theme :tada:"
-  },
-  {
-    "objectID": "guide/using.html#getting-help",
-    "href": "guide/using.html#getting-help",
-    "title": "Using the DP-Next theme",
-    "section": "Getting help",
-    "text": "Getting help\nIf you have any questions about using the DP-Next theme, please reach out by opening an issue in the dp-next-theme GitHub repository."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome",
-    "section": "",
-    "text": "Below is a test page to check that the theme is working as expected. It also serves as a short demo of the theme’s features and styling. You can edit this page to test changes to the theme, but it is not intended as a long-term landing page for the theme website, so feel free to change it as needed. For guidelines on contributing to the theme, see the contributing guide."
-  },
-  {
-    "objectID": "index.html#introduction",
-    "href": "index.html#introduction",
-    "title": "Welcome",
-    "section": "Introduction",
-    "text": "Introduction\nThis is the test landing page! With a link! And an emoji :grin:\nA primary button A secondary button\nA reference to another header in the same document.\nRandom text: The shoes had been there for as long as anyone could remember. In fact, it was difficult for anyone to come up with a date they had first appeared. It had seemed they’d always been there and yet they seemed so out of place. Why nobody had removed them was a question that had been asked time and again, but while they all thought it, nobody had ever found the energy to actually do it. So, the shoes remained on the steps, out of place in one sense, but perfectly normal in another.\nHere’s a table:\n\n\n\nName\nAge\n\n\n\n\nJohn\n23\n\n\nJane\n24\n\n\n\nA list:\n\nfirst\nsecond\nthird\n\nA callout block:\n\n\n\n\n\n\nTipHeader within callout block\n\n\n\nSome text."
-  },
-  {
-    "objectID": "index.html#another",
-    "href": "index.html#another",
-    "title": "Welcome",
-    "section": "Another",
-    "text": "Another\n\n\n\nThis is a caption\n\n\nHere’s some inline code in a sentence.\nA code block:\ndef hello_world():\n    print(\"Hello, world!\")"
-  },
-  {
-    "objectID": "index.html#simple-mermaid-diagram",
-    "href": "index.html#simple-mermaid-diagram",
-    "title": "Welcome",
-    "section": "Simple mermaid diagram",
-    "text": "Simple mermaid diagram\n\n\n\n\n\n\nflowchart TB\n    user([\"User&lt;br&gt;[person]\"])\n    subgraph python\n        package[\"Functions&lt;br&gt;[Python]\"]\n    end\n    output[(\"Filesystem\")]\n\n    user --&gt; python:::system\n    sprout --&gt; output:::external\n\n    classDef system fill:none\n    classDef external fill:lightgrey\n\n\n Simple mermaid diagram"
-  },
-  {
-    "objectID": "CONTRIBUTING.html",
-    "href": "CONTRIBUTING.html",
-    "title": "Contributing",
-    "section": "",
-    "text": "The easiest way to contribute is to report issues or bugs that you might find while using dp-next-theme. You can do this by creating a new issue on our GitHub repository.\n\n\n\nFor a full guide on setting up a development environment and making changes to the theme, see the contributing guide on our website."
-  },
-  {
-    "objectID": "CONTRIBUTING.html#bug-issues-and-bugs",
-    "href": "CONTRIBUTING.html#bug-issues-and-bugs",
-    "title": "Contributing",
-    "section": "",
-    "text": "The easiest way to contribute is to report issues or bugs that you might find while using dp-next-theme. You can do this by creating a new issue on our GitHub repository."
-  },
-  {
-    "objectID": "CONTRIBUTING.html#pencil2-adding-or-modifying-content",
-    "href": "CONTRIBUTING.html#pencil2-adding-or-modifying-content",
-    "title": "Contributing",
-    "section": "",
-    "text": "For a full guide on setting up a development environment and making changes to the theme, see the contributing guide on our website."
-  },
-  {
     "objectID": "example.html",
     "href": "example.html",
-    "title": "Example page",
+    "title": "Examples of features and styling",
     "section": "",
-    "text": "Below is an example page that shows the theme’s features and styling. You can edit this page to test changes to the theme. For guidelines on contributing to the theme, see the contributing guide.\n\n\nThis is the test landing page! With a link! And an emoji :grin:\nA primary button A secondary button\nA reference to another header in the same document.\nRandom text: The shoes had been there for as long as anyone could remember. In fact, it was difficult for anyone to come up with a date they had first appeared. It had seemed they’d always been there and yet they seemed so out of place. Why nobody had removed them was a question that had been asked time and again, but while they all thought it, nobody had ever found the energy to actually do it. So, the shoes remained on the steps, out of place in one sense, but perfectly normal in another.\nHere’s a table:\n\n\n\nName\nAge\n\n\n\n\nJohn\n23\n\n\nJane\n24\n\n\n\nA list:\n\nfirst\nsecond\nthird\n\nA callout block:\n\n\n\n\n\n\nTipHeader within callout block\n\n\n\nSome text.\n\n\n\n\n\n\n\n\nThis is a caption\n\n\nHere’s some inline code in a sentence.\nA code block:\ndef hello_world():\n    print(\"Hello, world!\")\n\n\n\n\n\n\n\n\n\nflowchart TB\n    user([\"User&lt;br&gt;[person]\"])\n    subgraph python\n        package[\"Functions&lt;br&gt;[Python]\"]\n    end\n    output[(\"Filesystem\")]\n\n    user --&gt; python:::system\n    sprout --&gt; output:::external\n\n    classDef system fill:none\n    classDef external fill:lightgrey\n\n\n Simple mermaid diagram"
+    "text": "Below is an example page that shows the theme’s features and styling. You can edit this page to test changes to the theme. For guidelines on contributing to the theme, see the contributing guide."
   },
   {
     "objectID": "example.html#introduction",
     "href": "example.html#introduction",
-    "title": "Example page",
-    "section": "",
-    "text": "This is the test landing page! With a link! And an emoji :grin:\nA primary button A secondary button\nA reference to another header in the same document.\nRandom text: The shoes had been there for as long as anyone could remember. In fact, it was difficult for anyone to come up with a date they had first appeared. It had seemed they’d always been there and yet they seemed so out of place. Why nobody had removed them was a question that had been asked time and again, but while they all thought it, nobody had ever found the energy to actually do it. So, the shoes remained on the steps, out of place in one sense, but perfectly normal in another.\nHere’s a table:\n\n\n\nName\nAge\n\n\n\n\nJohn\n23\n\n\nJane\n24\n\n\n\nA list:\n\nfirst\nsecond\nthird\n\nA callout block:\n\n\n\n\n\n\nTipHeader within callout block\n\n\n\nSome text."
+    "title": "Examples of features and styling",
+    "section": "Introduction",
+    "text": "Introduction\nThis is the test page! With a link! And an emoji :grin:\nA primary button A secondary button\nA reference to another header in the same document.\nRandom text: The shoes had been there for as long as anyone could remember. In fact, it was difficult for anyone to come up with a date they had first appeared. It had seemed they’d always been there and yet they seemed so out of place. Why nobody had removed them was a question that had been asked time and again, but while they all thought it, nobody had ever found the energy to actually do it. So, the shoes remained on the steps, out of place in one sense, but perfectly normal in another.\nHere’s a table:\n\n\n\nName\nAge\n\n\n\n\nJohn\n23\n\n\nJane\n24\n\n\n\nA list:\n\nfirst\nsecond\nthird\n\nA callout block:\n\n\n\n\n\n\nTipHeader within callout block\n\n\n\nSome text."
   },
   {
     "objectID": "example.html#another",
     "href": "example.html#another",
-    "title": "Example page",
-    "section": "",
-    "text": "This is a caption\n\n\nHere’s some inline code in a sentence.\nA code block:\ndef hello_world():\n    print(\"Hello, world!\")"
+    "title": "Examples of features and styling",
+    "section": "Another",
+    "text": "Another\n\n\n\nThis is a caption\n\n\nHere’s some inline code in a sentence.\nA code block:\ndef hello_world():\n    print(\"Hello, world!\")"
   },
   {
     "objectID": "example.html#simple-mermaid-diagram",
     "href": "example.html#simple-mermaid-diagram",
-    "title": "Example page",
-    "section": "",
-    "text": "flowchart TB\n    user([\"User&lt;br&gt;[person]\"])\n    subgraph python\n        package[\"Functions&lt;br&gt;[Python]\"]\n    end\n    output[(\"Filesystem\")]\n\n    user --&gt; python:::system\n    sprout --&gt; output:::external\n\n    classDef system fill:none\n    classDef external fill:lightgrey\n\n\n Simple mermaid diagram"
+    "title": "Examples of features and styling",
+    "section": "Simple mermaid diagram",
+    "text": "Simple mermaid diagram\n\n\n\n\n\n\nflowchart TB\n    user([\"User&lt;br&gt;[person]\"])\n    subgraph python\n        package[\"Functions&lt;br&gt;[Python]\"]\n    end\n    output[(\"Filesystem\")]\n\n    user --&gt; python:::system\n    sprout --&gt; output:::external\n\n    classDef system fill:none\n    classDef external fill:lightgrey\n\n\n Simple mermaid diagram"
   },
   {
     "objectID": "CHANGELOG.html",
@@ -140,6 +56,27 @@
     "text": "💄 white navbar with quarto grey bottom (#16)"
   },
   {
+    "objectID": "guide/contributing.html",
+    "href": "guide/contributing.html",
+    "title": "Contributing to the theme",
+    "section": "",
+    "text": "This theme is a Quarto brand extension that provides a set of defaults and customisations on top of the base Bootstrap theme. It is used across DP-Next websites, so when making changes, be careful to avoid breaking things downstream.\nBefore adding custom CSS or JavaScript, check whether your change can be achieved through the theme files or existing Quarto or Bootstrap options—custom code can introduce accessibility issues and is harder to maintain."
+  },
+  {
+    "objectID": "guide/contributing.html#sec-theme-structure",
+    "href": "guide/contributing.html#sec-theme-structure",
+    "title": "Contributing to the theme",
+    "section": "Theme structure",
+    "text": "Theme structure\nThe theme lives entirely inside _extensions/dp-next-theme/. The two most important files are _brand.yml and _extension.yml.\n\n_brand.yml\nControls the visual identity of the theme: fonts, colours, and custom CSS rules. Edit this file to change the theme’s appearance. We use fonts from Bunny, a privacy-friendly alternative to Google Fonts. See Quarto’s Brand Elements page for available options.\n\n\n_extension.yml\nDefines the theme metadata and site-wide defaults. The contributes section is where you can set defaults for all sites using the theme like the navbar logo, favicon, or footer text.\n\n\nAdding logos\nLogos live in _extensions/dp-next-theme/logos/. Add new logos there, then reference them in _extension.yml (for navbar or favicon) or directly in .qmd files in repositories using the theme."
+  },
+  {
+    "objectID": "guide/contributing.html#contributing-changes",
+    "href": "guide/contributing.html#contributing-changes",
+    "title": "Contributing to the theme",
+    "section": "Contributing changes",
+    "text": "Contributing changes\nWhen contributing, make a pull request with your changes. For an introduction to the pull request and commit conventions we follow, see these chapters in the Seedcase guidebook:\n\nPull requests\nCommits\n\n\nDevelopment setup\nTo test changes locally, clone the dp-next-theme repository and install the following tools:\n\nuv\njust\nQuarto\n\nThe easiest way to install uv and just is with pipx:\npipx install uv rust-just\nThen set up the pre-commit hooks with:\njust install-precommit\nRun just to see all available commands. The most common one is just run-all, which runs all checks and tests including building the site locally to check for errors.\n\n\nCommits and pull requests\nWhen committing changes, try to follow the Conventional Commits standard for your Git messages. This lets us auto-generate releases using Commitizen. If your commits don’t follow this convention, we’ll revise the pull request title before merging—we use squash merges, so all commits in a pull request are squashed into one."
+  },
+  {
     "objectID": "LICENSE.html",
     "href": "LICENSE.html",
     "title": "MIT License",
@@ -147,24 +84,66 @@
     "text": "MIT License\nCopyright (c) 2025-2026 dp-next-theme authors\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
   },
   {
-    "objectID": "guide/contributing.html",
-    "href": "guide/contributing.html",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to the DP-Next theme website",
+    "section": "",
+    "text": "The DP-Next theme is a Quarto brand extension, that is used across DP-Next websites. The extension provides the theme’s styling (brand) as well as default website settings, such as the navigation bar, search bar, and page footer.\nExplore the guide to learn how to use the DP-Next theme in your project, how to contribute to the project, and see a few examples of how to use the theme’s features."
+  },
+  {
+    "objectID": "guide/using.html",
+    "href": "guide/using.html",
+    "title": "Using the theme",
+    "section": "",
+    "text": "This guide walks you through adding the DP-Next theme to a repository that uses Quarto."
+  },
+  {
+    "objectID": "guide/using.html#before-you-begin",
+    "href": "guide/using.html#before-you-begin",
+    "title": "Using the theme",
+    "section": "Before you begin",
+    "text": "Before you begin\nMake sure you have Quarto installed with version 1.8.0 or later. Check your version by running quarto --version in a terminal.\nTo add the DP-Next theme to your project, you need to have a Git repository set up locally on your computer. So either:\n\nCreate a Git repository locally.\nCreate a Git repository on GitHub and clone it to your computer.\nClone an existing repository to your computer if you don’t have it on your computer.\nPull the latest changes from an existing repository if you have the repository on your computer already."
+  },
+  {
+    "objectID": "guide/using.html#add-the-theme-to-your-project",
+    "href": "guide/using.html#add-the-theme-to-your-project",
+    "title": "Using the theme",
+    "section": "Add the theme to your project",
+    "text": "Add the theme to your project\nTo add the DP-Next theme to your project, run the following command in the terminal while in the root (working directory) of your project. You can either enter the working directory by opening a terminal and using cd or by opening the project in RStudio or VS Code and using the terminal in those apps.\nquarto add dp-next/dp-next-theme\nThis command adds the DP-Next theme to your project in the _extensions/ folder. In the _extensions/dp-next/dp-next-theme/ folder, you can find the theme files as well as images such as logos.\nThen, open your _quarto.yml file and change the “type” of your project to dp-next-theme, which looks like:\n\n\n_quarto.yml\n\nproject:\n  type: dp-next-theme\n\nOnce you’ve added the theme, it will be applied to your project. This means that your project will now have the DP-Next theme’s styling and features, as well as the default website settings that come with the theme, such as the navigation bar, search bar, and page footer.\nIf you want to change or update the theme’s default settings, please contribute to the theme by following the instructions in the contributing guide."
+  },
+  {
+    "objectID": "guide/using.html#update-the-theme",
+    "href": "guide/using.html#update-the-theme",
+    "title": "Using the theme",
+    "section": "Update the theme",
+    "text": "Update the theme\nTo update the dp-next-theme, run:\nquarto update dp-next/dp-next-theme\nThis replaces the files in _extensions/dp-next/dp-next-theme/ with the newest version from the dp-next-theme repository. Commit the updated extension files to the Git history and push to GitHub so that your rendered output can use the theme :tada:"
+  },
+  {
+    "objectID": "guide/using.html#getting-help",
+    "href": "guide/using.html#getting-help",
+    "title": "Using the theme",
+    "section": "Getting help",
+    "text": "Getting help\nIf you have any questions about using the DP-Next theme, please reach out by opening an issue in the dp-next-theme GitHub repository."
+  },
+  {
+    "objectID": "CONTRIBUTING.html",
+    "href": "CONTRIBUTING.html",
     "title": "Contributing",
     "section": "",
-    "text": "This theme is a Quarto brand extension that provides a set of defaults and customisations on top of the base Bootstrap theme. It is used across DP-Next websites, so when making changes, be careful to avoid breaking things downstream.\nBefore adding custom CSS or JavaScript, check whether your change can be achieved through the theme files or existing Quarto or Bootstrap options—custom code can introduce accessibility issues and is harder to maintain."
+    "text": "The easiest way to contribute is to report issues or bugs that you might find while using dp-next-theme. You can do this by creating a new issue on our GitHub repository.\n\n\n\nFor a full guide on setting up a development environment and making changes to the theme, see the contributing guide on our website."
   },
   {
-    "objectID": "guide/contributing.html#sec-theme-structure",
-    "href": "guide/contributing.html#sec-theme-structure",
+    "objectID": "CONTRIBUTING.html#bug-issues-and-bugs",
+    "href": "CONTRIBUTING.html#bug-issues-and-bugs",
     "title": "Contributing",
-    "section": "Theme structure",
-    "text": "Theme structure\nThe theme lives entirely inside _extensions/dp-next-theme/. The two most important files are _brand.yml and _extension.yml.\n\n_brand.yml\nControls the visual identity of the theme: fonts, colours, and custom CSS rules. Edit this file to change the theme’s appearance. We use fonts from Bunny, a privacy-friendly alternative to Google Fonts. See Quarto’s Brand Elements page for available options.\n\n\n_extension.yml\nDefines the theme metadata and site-wide defaults. The contributes section is where you can set defaults for all sites using the theme like the navbar logo, favicon, or footer text.\n\n\nAdding logos\nLogos live in _extensions/dp-next-theme/logos/. Add new logos there, then reference them in _extension.yml (for navbar or favicon) or directly in .qmd files in repositories using the theme."
+    "section": "",
+    "text": "The easiest way to contribute is to report issues or bugs that you might find while using dp-next-theme. You can do this by creating a new issue on our GitHub repository."
   },
   {
-    "objectID": "guide/contributing.html#contributing-changes",
-    "href": "guide/contributing.html#contributing-changes",
+    "objectID": "CONTRIBUTING.html#pencil2-adding-or-modifying-content",
+    "href": "CONTRIBUTING.html#pencil2-adding-or-modifying-content",
     "title": "Contributing",
-    "section": "Contributing changes",
-    "text": "Contributing changes\nWhen contributing, make a pull request with your changes. For an introduction to the pull request and commit conventions we follow, see these chapters in the Seedcase guidebook:\n\nPull requests\nCommits\n\n\nDevelopment setup\nTo test changes locally, clone the dp-next-theme repository and install the following tools:\n\nuv\njust\nQuarto\n\nThe easiest way to install uv and just is with pipx:\npipx install uv rust-just\nThen set up the pre-commit hooks with:\njust install-precommit\nRun just to see all available commands. The most common one is just run-all, which runs all checks and tests including building the site locally to check for errors.\n\n\nCommits and pull requests\nWhen committing changes, try to follow the Conventional Commits standard for your Git messages. This lets us auto-generate releases using Commitizen. If your commits don’t follow this convention, we’ll revise the pull request title before merging—we use squash merges, so all commits in a pull request are squashed into one."
+    "section": "",
+    "text": "For a full guide on setting up a development environment and making changes to the theme, see the contributing guide on our website."
   }
 ]
