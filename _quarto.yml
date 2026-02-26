@@ -8,8 +8,6 @@ website:
   repo-url: "https://github.com/dp-next/dp-next-theme"
   navbar:
     left:
-      - text: "Welcome"
-        href: index.qmd
       - text: "Guide"
         menu:
           - text: "Using the theme"
