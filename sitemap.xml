@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://dp-next.github.io/dp-next-theme/guide/contributing.html</loc>
-    <lastmod>2026-05-26T07:06:30.755Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dp-next.github.io/dp-next-theme/index.html</loc>
-    <lastmod>2026-05-26T07:06:30.755Z</lastmod>
-  </url>
-  <url>
     <loc>https://dp-next.github.io/dp-next-theme/example.html</loc>
-    <lastmod>2026-05-26T07:06:30.754Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dp-next.github.io/dp-next-theme/LICENSE.html</loc>
-    <lastmod>2026-05-26T07:06:30.744Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dp-next.github.io/dp-next-theme/CHANGELOG.html</loc>
-    <lastmod>2026-05-26T07:06:30.744Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dp-next.github.io/dp-next-theme/guide/using.html</loc>
-    <lastmod>2026-05-26T07:06:30.755Z</lastmod>
+    <lastmod>2026-06-02T06:20:58.869Z</lastmod>
   </url>
   <url>
     <loc>https://dp-next.github.io/dp-next-theme/CONTRIBUTING.html</loc>
-    <lastmod>2026-05-26T07:06:30.744Z</lastmod>
+    <lastmod>2026-06-02T06:20:58.859Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dp-next.github.io/dp-next-theme/guide/contributing.html</loc>
+    <lastmod>2026-06-02T06:20:58.869Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dp-next.github.io/dp-next-theme/guide/using.html</loc>
+    <lastmod>2026-06-02T06:20:58.870Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dp-next.github.io/dp-next-theme/LICENSE.html</loc>
+    <lastmod>2026-06-02T06:20:58.859Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dp-next.github.io/dp-next-theme/CHANGELOG.html</loc>
+    <lastmod>2026-06-02T06:20:58.859Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dp-next.github.io/dp-next-theme/index.html</loc>
+    <lastmod>2026-06-02T06:20:58.870Z</lastmod>
   </url>
 </urlset>
