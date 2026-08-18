@@ -1,10 +1,31 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to the DP-Next theme website",
+    "objectID": "CHANGELOG.html",
+    "href": "CHANGELOG.html",
+    "title": "Changelog",
     "section": "",
-    "text": "The DP-Next theme is a Quarto brand extension, that is used across DP-Next websites. The extension provides the theme’s styling (brand) as well as default website settings, such as the navigation bar, search bar, and page footer.\nExplore the guide to learn how to use the DP-Next theme in your project, how to contribute to the project, and see a few examples of how to use the theme’s features."
+    "text": "Since we follow Conventional Commits, we’re able to automatically create formal “releases” of the website based on our commit messages. Releases in the context of websites are simply snapshots in time of the website content. We use Commitizen to automatically create these releases using SemVer as the version numbering scheme.\nBecause releases are created based on commit messages, a new release is created quite often—sometimes several times in a day. This also means that any individual release will not have many changes within it. Below is a list of the releases we’ve made so far, along with what was changed within each release.\n\n\n\n\n\n♻️ use Quarto brand extension structure (#31)\n\n\n\n\n\n\n\n\n:truck: rename logos, e.g., au-logo.png to au.png (#18)\n\n\n\n\n\n\n\n\n💄 white navbar with quarto grey bottom (#16)"
+  },
+  {
+    "objectID": "CHANGELOG.html#section",
+    "href": "CHANGELOG.html#section",
+    "title": "Changelog",
+    "section": "",
+    "text": "♻️ use Quarto brand extension structure (#31)"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-1",
+    "href": "CHANGELOG.html#section-1",
+    "title": "Changelog",
+    "section": "",
+    "text": ":truck: rename logos, e.g., au-logo.png to au.png (#18)"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-2",
+    "href": "CHANGELOG.html#section-2",
+    "title": "Changelog",
+    "section": "",
+    "text": "💄 white navbar with quarto grey bottom (#16)"
   },
   {
     "objectID": "guide/using.html",
@@ -42,25 +63,11 @@
     "text": "Getting help\nIf you have any questions about using the DP-Next theme, please reach out by opening an issue in the dp-next-theme GitHub repository."
   },
   {
-    "objectID": "CONTRIBUTING.html",
-    "href": "CONTRIBUTING.html",
-    "title": "Contributing",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to the DP-Next theme website",
     "section": "",
-    "text": "The easiest way to contribute is to report issues or bugs that you might find while using dp-next-theme. You can do this by creating a new issue on our GitHub repository.\n\n\n\nFor a full guide on setting up a development environment and making changes to the theme, see the contributing guide on our website."
-  },
-  {
-    "objectID": "CONTRIBUTING.html#bug-issues-and-bugs",
-    "href": "CONTRIBUTING.html#bug-issues-and-bugs",
-    "title": "Contributing",
-    "section": "",
-    "text": "The easiest way to contribute is to report issues or bugs that you might find while using dp-next-theme. You can do this by creating a new issue on our GitHub repository."
-  },
-  {
-    "objectID": "CONTRIBUTING.html#pencil2-adding-or-modifying-content",
-    "href": "CONTRIBUTING.html#pencil2-adding-or-modifying-content",
-    "title": "Contributing",
-    "section": "",
-    "text": "For a full guide on setting up a development environment and making changes to the theme, see the contributing guide on our website."
+    "text": "The DP-Next theme is a Quarto brand extension, that is used across DP-Next websites. The extension provides the theme’s styling (brand) as well as default website settings, such as the navigation bar, search bar, and page footer.\nExplore the guide to learn how to use the DP-Next theme in your project, how to contribute to the project, and see a few examples of how to use the theme’s features."
   },
   {
     "objectID": "example.html",
@@ -98,32 +105,25 @@
     "text": "MIT License\nCopyright (c) 2025-2026 dp-next-theme authors\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
   },
   {
-    "objectID": "CHANGELOG.html",
-    "href": "CHANGELOG.html",
-    "title": "Changelog",
+    "objectID": "CONTRIBUTING.html",
+    "href": "CONTRIBUTING.html",
+    "title": "Contributing",
     "section": "",
-    "text": "Since we follow Conventional Commits, we’re able to automatically create formal “releases” of the website based on our commit messages. Releases in the context of websites are simply snapshots in time of the website content. We use Commitizen to automatically create these releases using SemVer as the version numbering scheme.\nBecause releases are created based on commit messages, a new release is created quite often—sometimes several times in a day. This also means that any individual release will not have many changes within it. Below is a list of the releases we’ve made so far, along with what was changed within each release.\n\n\n\n\n\n♻️ use Quarto brand extension structure (#31)\n\n\n\n\n\n\n\n\n:truck: rename logos, e.g., au-logo.png to au.png (#18)\n\n\n\n\n\n\n\n\n💄 white navbar with quarto grey bottom (#16)"
+    "text": "The easiest way to contribute is to report issues or bugs that you might find while using dp-next-theme. You can do this by creating a new issue on our GitHub repository.\n\n\n\nFor a full guide on setting up a development environment and making changes to the theme, see the contributing guide on our website."
   },
   {
-    "objectID": "CHANGELOG.html#section",
-    "href": "CHANGELOG.html#section",
-    "title": "Changelog",
+    "objectID": "CONTRIBUTING.html#bug-issues-and-bugs",
+    "href": "CONTRIBUTING.html#bug-issues-and-bugs",
+    "title": "Contributing",
     "section": "",
-    "text": "♻️ use Quarto brand extension structure (#31)"
+    "text": "The easiest way to contribute is to report issues or bugs that you might find while using dp-next-theme. You can do this by creating a new issue on our GitHub repository."
   },
   {
-    "objectID": "CHANGELOG.html#section-1",
-    "href": "CHANGELOG.html#section-1",
-    "title": "Changelog",
+    "objectID": "CONTRIBUTING.html#pencil2-adding-or-modifying-content",
+    "href": "CONTRIBUTING.html#pencil2-adding-or-modifying-content",
+    "title": "Contributing",
     "section": "",
-    "text": ":truck: rename logos, e.g., au-logo.png to au.png (#18)"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-2",
-    "href": "CHANGELOG.html#section-2",
-    "title": "Changelog",
-    "section": "",
-    "text": "💄 white navbar with quarto grey bottom (#16)"
+    "text": "For a full guide on setting up a development environment and making changes to the theme, see the contributing guide on our website."
   },
   {
     "objectID": "guide/contributing.html",
