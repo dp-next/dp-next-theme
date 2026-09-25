@@ -24,7 +24,7 @@ typography:
     - family: noto sans
       source: "bunny"
       # other weights are used for e.g., bold and table headers
-      weight: [300, 500, 600]
+      weight: [300, 300, 600]
     - family: poppins
       source: "bunny"
       weight: 400
