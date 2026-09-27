@@ -15,6 +15,12 @@ that any individual release will not have many changes within it. Below
 is a list of the releases we've made so far, along with what was changed
 within each release.
 
+## 0.2.0 (2026-09-27)
+
+### Feat
+
+- :sparkles: add black code text colour in brand (#69)
+
 ## 0.1.4 (2026-09-21)
 
 ### Refactor
