@@ -15,6 +15,17 @@ that any individual release will not have many changes within it. Below
 is a list of the releases we've made so far, along with what was changed
 within each release.
 
+## 0.3.0 (2026-09-27)
+
+### Feat
+
+- :sparkles: add dropdown font weight of 300 in brand (#71)
+
+### Refactor
+
+- ♻️ move the navbar background colour to `brand.yml` (#68)
+- :recycle: change noto sanse weight to 300 for callout body (#70)
+
 ## 0.2.0 (2026-09-27)
 
 ### Feat
