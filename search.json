@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to the DP-Next theme website",
-    "section": "",
-    "text": "The DP-Next theme is a Quarto brand extension, that is used across DP-Next websites. The extension provides the theme’s styling (brand) as well as default website settings, such as the navigation bar, search bar, and page footer.\nExplore the guide to learn how to use the DP-Next theme in your project, how to contribute to the project, and see a few examples of how to use the theme’s features."
-  },
-  {
     "objectID": "CONTRIBUTING.html",
     "href": "CONTRIBUTING.html",
     "title": "Contributing",
@@ -26,6 +19,13 @@
     "title": "Contributing",
     "section": "",
     "text": "For a full guide on setting up a development environment and making changes to the theme, see the contributing guide on our website."
+  },
+  {
+    "objectID": "LICENSE.html",
+    "href": "LICENSE.html",
+    "title": "MIT License",
+    "section": "",
+    "text": "MIT License\nCopyright (c) 2025-2026 dp-next-theme authors\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
   },
   {
     "objectID": "guide/using.html",
@@ -61,13 +61,6 @@
     "title": "Using the theme",
     "section": "Getting help",
     "text": "Getting help\nIf you have any questions about using the DP-Next theme, please reach out by opening an issue in the dp-next-theme GitHub repository."
-  },
-  {
-    "objectID": "LICENSE.html",
-    "href": "LICENSE.html",
-    "title": "MIT License",
-    "section": "",
-    "text": "MIT License\nCopyright (c) 2025-2026 dp-next-theme authors\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
   },
   {
     "objectID": "CHANGELOG.html",
@@ -117,6 +110,13 @@
     "title": "Changelog",
     "section": "",
     "text": "💄 white navbar with quarto grey bottom (#16)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to the DP-Next theme website",
+    "section": "",
+    "text": "The DP-Next theme is a Quarto brand extension, that is used across DP-Next websites. The extension provides the theme’s styling (brand) as well as default website settings, such as the navigation bar, search bar, and page footer.\nExplore the guide to learn how to use the DP-Next theme in your project, how to contribute to the project, and see a few examples of how to use the theme’s features."
   },
   {
     "objectID": "guide/contributing.html",
